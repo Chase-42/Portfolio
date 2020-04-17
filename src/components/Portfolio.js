@@ -1,5 +1,8 @@
 import React from "react";
+// Styles
 import styled from "styled-components";
+import "../hover.css";
+// Images
 import img1 from "../images/reducer-todo-picture.png";
 import img2 from "../images/weightliftingjournal.png";
 import img3 from "../images/nasaphotooftheday.png";

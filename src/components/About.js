@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import "hover.css";
+import "../hover.css";
 
 export default function About() {
   return (
@@ -29,7 +31,7 @@ export default function About() {
         and cutting-edge applications that are seamless and easy to use.
       </p>
       <p>If you’d like to know more, feel free to get in touch!</p>
-      <StyledButton>
+      <button class="hvr-float-shadow">
         <a
           href="https://resume.creddle.io/resume/8qf10czfrxt"
           target="_blank"
@@ -37,7 +39,7 @@ export default function About() {
         >
           View My Resume
         </a>
-      </StyledButton>
+      </button>
     </AboutBanner>
   );
 }
@@ -59,26 +61,20 @@ const AboutBanner = styled.div`
   p {
     font-size: 0.7em;
   }
-`;
-const StyledButton = styled.button`
-  color: black;
-  text-decoration: none;
-  background: #6c7d75;
-  text-transform: uppercase;
-  padding: 0px 10px 5px 10px;
-  border-radius: 5px;
-  border: none;
-  margin-top: 2%;
-  transition: all 0.4s ease 0s;
-  a {
-    color: white;
-    font-size: 0.75em;
-    text-decoration: none;
-  }
-  &:hover {
+  button {
     color: black;
-    cursor: pointer;
-    background: #a2d9dd;
+    text-decoration: none;
+    background: #6c7d75;
+    text-transform: uppercase;
+    padding: 0px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
     transition: all 0.4s ease 0s;
+    a {
+      color: white;
+      font-size: 0.7em;
+      text-decoration: none;
+    }
   }
 `;

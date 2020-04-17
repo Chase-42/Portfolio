@@ -1,15 +1,39 @@
 import React from "react";
 import styled from "styled-components";
+import Clipboard from "clipboard";
 
 function Contact() {
+  var clip = new Clipboard(".btn");
+
+  clip.on("success", function () {
+    alert("My email address has been copied to your clipboard.");
+  });
+  clip.on("error", function () {
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      "<div>that didn't work.</div>"
+    );
+  });
+
   return (
     <Footer>
-      <a href="#">
+      <div class="btn" data-clipboard-text="chaseofthecollins@gmail.com">
         <i class="fas fa-envelope"></i>
+      </div>
+      <a
+        href="https://www.linkedin.com/in/chase-collins42/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fab fa-linkedin-in"></i>
       </a>
-      <i class="fab fa-linkedin-in"></i>
-      <i class="fab fa-github"></i>
-      <i class="fas fa-phone"></i>
+      <a
+        href="https://github.com/Chase-42"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fab fa-github"></i>
+      </a>
     </Footer>
   );
 }
@@ -17,16 +41,24 @@ function Contact() {
 export default Contact;
 
 export const Footer = styled.footer`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 5%;
   color: white;
-  width: 40em;
+  width: 20em;
   position: relative;
   bottom: 0;
   text-align: center;
+  button {
+    text-decoration: none;
+  }
   i {
     color: white;
     transition: all 0.2s ease-in-out;
     margin-right: 5%;
+    cursor: pointer;
     &:hover {
       transform: scale(1.2);
     }
