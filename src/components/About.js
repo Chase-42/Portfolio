@@ -6,21 +6,23 @@ import "../hover.css";
 export default function About() {
   return (
     <AboutSection>
-      <Skills>
-        <h4>SKILLS</h4>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-less"></i>
-        <i class="fab fa-git-square"></i>
-        <i class="fab fa-node"></i>
-        <span
-          class="iconify"
-          data-icon="simple-icons:redux"
-          data-inline="false"
-        ></span>
-      </Skills>
+      <div class="hvr-grow-rotate">
+        <Skills>
+          <h4>SKILLS</h4>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <span
+            class="iconify"
+            data-icon="simple-icons:redux"
+            data-inline="false"
+          ></span>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-less"></i>
+          <i class="fab fa-git-square"></i>
+          <i class="fab fa-node"></i>
+        </Skills>
+      </div>
       <AboutBanner>
         <h4>A LITTLE ABOUT ME</h4>
         <p>
@@ -62,7 +64,7 @@ export default function About() {
 }
 
 const AboutSection = styled.div`
-  width: 50em;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -74,10 +76,13 @@ const Skills = styled.div`
   flex-direction: column;
   align-items: center;
   color: white;
+  background: #6c7d75;
+  height: 17em;
+  border-radius: 10px;
   h4 {
     font-size: 1em;
-    padding-bottom: 0.4em;
     margin-top: -5%;
+    padding: 10%;
   }
   i {
     margin: 10%;
@@ -85,7 +90,7 @@ const Skills = styled.div`
 `;
 
 const AboutBanner = styled.div`
-  width: 40em;
+  width: 80%;
   color: white;
   text-align: right;
   h4 {
@@ -95,6 +100,7 @@ const AboutBanner = styled.div`
     padding-bottom: 0.4em;
   }
   p {
+    margin-bottom: 1%;
     font-size: 0.7em;
   }
   button {

@@ -143,9 +143,8 @@ export default function Portfolio() {
 }
 
 const PortfolioDiv = styled.div`
-  width: 45em;
+  width: 80%;
   text-align: right;
-
   background: none;
   h4 {
     color: white;
@@ -163,7 +162,7 @@ const PortfolioDiv = styled.div`
 `;
 
 const ProjectSection = styled.div`
-  width: 45em;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,7 +171,7 @@ const ProjectSection = styled.div`
 `;
 
 const Project = styled.div`
-  width: 21em;
+  width: 47%;
   text-align: center;
   margin: 1%;
   background: #a2d9dd;
@@ -196,7 +195,7 @@ const Project = styled.div`
     text-decoration: none;
   }
   img {
-    width: 20em;
+    width: 92%;
     height: 10em;
   }
   i {
