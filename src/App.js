@@ -25,22 +25,18 @@ export default App;
 
 const AppDiv = styled.div`
   background: rgb(71, 72, 82);
-  width: 100%;
-  height: 90em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  width: 100%;
+  height: 95em;
+  justify-content: space-between;
 `;
 
 export const Banner = styled.div`
   color: white;
-  margin: 0 auto;
   width: 50em;
-  position: absolute;
-  top: 0;
   h2 {
-    padding-right: 70%;
     border-bottom: solid 2px #a6695d;
     font-size: 2.25em;
     margin-bottom: 0.8em;
@@ -48,7 +44,7 @@ export const Banner = styled.div`
   }
   h4 {
     margin-top: -1.5%;
-    padding-right: 78%;
     font-size: 0.9em;
+    margin-left: 5px;
   }
 `;

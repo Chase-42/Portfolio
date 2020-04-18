@@ -9,43 +9,43 @@ function Contact() {
     alert("My email address has been copied to your clipboard.");
   });
   clip.on("error", function () {
-    document.body.insertAdjacentHTML(
-      "beforeend",
-      "<div>that didn't work.</div>"
-    );
+    alert("That didn't work, sorry :(");
   });
 
   return (
-    <Footer>
-      <div class="btn" data-clipboard-text="chaseofthecollins@gmail.com">
-        <i class="fas fa-envelope"></i>
-      </div>
-      <a
-        href="https://www.linkedin.com/in/chase-collins42/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a
-        href="https://github.com/Chase-42"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fab fa-github"></i>
-      </a>
-    </Footer>
+    <ContactDiv>
+      <Footer>
+        <div class="btn" data-clipboard-text="chaseofthecollins@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/chase-collins42/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/Chase-42"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </Footer>
+      <p>Copyright © Chase Collins 2020</p>
+    </ContactDiv>
   );
 }
 
 export default Contact;
 
-export const Footer = styled.footer`
+const Footer = styled.footer`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-bottom: 0.5%;
   color: white;
   width: 20em;
   position: relative;
@@ -62,5 +62,15 @@ export const Footer = styled.footer`
     &:hover {
       transform: scale(1.2);
     }
+  }
+`;
+
+const ContactDiv = styled.div`
+  p {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-size: 0.5em;
   }
 `;

@@ -145,7 +145,7 @@ export default function Portfolio() {
 const PortfolioDiv = styled.div`
   width: 45em;
   text-align: right;
-  margin-top: 8%;
+
   background: none;
   h4 {
     color: white;
