@@ -24,12 +24,11 @@ function App() {
 export default App;
 
 const AppDiv = styled.div`
-  background: rgb(71, 72, 82);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 95em;
+  height: 100em;
   justify-content: space-between;
 `;
 
@@ -37,7 +36,7 @@ export const Banner = styled.div`
   color: white;
   width: 90%;
   h2 {
-    border-bottom: solid 2px #a6695d;
+    border-bottom: solid 2px #488286;
     font-size: 2.25em;
     margin-bottom: 0.8em;
     padding-bottom: 0.4em;

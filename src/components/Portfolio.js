@@ -17,7 +17,7 @@ export default function Portfolio() {
         journey.
       </p>
       <ProjectSection>
-        <Project>
+        <div class="hvr-float">
           <h5>WEIGHT LIFTING JOURNAL</h5>
           <img src={img2} alt="weightliftingjournal" />
           <a
@@ -54,9 +54,9 @@ export default function Portfolio() {
               <i class="fab fa-github"></i>
             </a>
           </ul>
-        </Project>
+        </div>
 
-        <Project>
+        <div class="hvr-float">
           <h5>NASA PHOTO OF THE DAY</h5>
           <img src={img3} alt="reducer" />
           <a
@@ -82,8 +82,9 @@ export default function Portfolio() {
               <i class="fab fa-github"></i>
             </a>
           </ul>
-        </Project>
-        <Project>
+        </div>
+
+        <div class="hvr-float">
           <h5>TODO APPLICATION</h5>
           <img src={img1} alt="reducer" />
           <a
@@ -112,8 +113,9 @@ export default function Portfolio() {
               <i class="fab fa-github"></i>
             </a>
           </ul>
-        </Project>
-        <Project>
+        </div>
+
+        <div class="hvr-float">
           <h5>SAVE THE ANIMALS</h5>
           <img src={img4} alt="reducer" />
           <a
@@ -136,7 +138,7 @@ export default function Portfolio() {
               <i class="fab fa-github"></i>
             </a>
           </ul>
-        </Project>
+        </div>
       </ProjectSection>
     </PortfolioDiv>
   );
@@ -148,7 +150,7 @@ const PortfolioDiv = styled.div`
   background: none;
   h4 {
     color: white;
-    border-bottom: solid 2px #a6695d;
+    border-bottom: solid 2px #488286;
     font-size: 1em;
     margin-bottom: 1em;
     padding-bottom: 0.4em;
@@ -168,54 +170,47 @@ const ProjectSection = styled.div`
   align-items: center;
   justify-content: space-evenly;
   flex-flow: wrap;
-`;
-
-const Project = styled.div`
-  width: 47%;
-  text-align: center;
-  margin: 1%;
-  background: #a2d9dd;
-  border-radius: 10px;
-  min-height: 22.5em;
-  position: relative;
-  h5 {
-    color: black;
-    font-size: 0.75em;
-    margin: 2%;
-  }
-  p {
-    color: black;
-    font-size: 0.6em;
-  }
-  li {
-    text-align: left;
-    font-size: 0.6em;
-  }
-  a {
-    text-decoration: none;
-  }
-  img {
-    width: 92%;
-    height: 10em;
-  }
-  i {
-    color: black;
-    position: absolute;
-    margin: 0% 2% 2% 0%;
-    bottom: 0;
-    right: 0;
-  }
-  transition: box-shadow 0.3s;
-  box-shadow: 2.5px 5px #a6695d;
-  &:hover {
-    box-shadow: none;
-    margin-bottom: 1.5%;
+  div {
+    width: 47%;
+    text-align: center;
+    margin: 1%;
+    background: #77878b;
+    border-radius: 10px;
+    min-height: 22.5em;
+    position: relative;
+    h5 {
+      color: black;
+      font-size: 0.75em;
+      margin: 2%;
+    }
+    p {
+      color: black;
+      font-size: 0.6em;
+    }
+    li {
+      text-align: left;
+      font-size: 0.6em;
+    }
+    a {
+      text-decoration: none;
+    }
+    img {
+      width: 92%;
+      height: 10em;
+    }
+    i {
+      color: black;
+      position: absolute;
+      margin: 0% 2% 2% 0%;
+      bottom: 0;
+      right: 0;
+    }
   }
 `;
 
 const StyledButton = styled.button`
-  color: black;
-  background: #a6695d;
+  color: white;
+  background: #191919;
   text-transform: uppercase;
   padding: 4px 10px 4px 10px;
   border-radius: 5px;
@@ -228,8 +223,8 @@ const StyledButton = styled.button`
   }
   &:hover {
     cursor: pointer;
-    color: black;
-    background: rgba(162, 217, 221, 0.5);
+    color: white;
+    background: #77878b;
     transition: all 0.4s ease 0s;
   }
 `;

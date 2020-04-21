@@ -6,7 +6,7 @@ import "../hover.css";
 export default function About() {
   return (
     <AboutSection>
-      <div class="hvr-grow-rotate">
+      <div class="hvr-buzz-out">
         <Skills>
           <h4>SKILLS</h4>
           <i class="fab fa-js"></i>
@@ -49,7 +49,7 @@ export default function About() {
           easy to use.
         </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
-        <button class="hvr-float-shadow">
+        <button class="hvr-wobble-vertical">
           <a
             href="https://resume.creddle.io/resume/8qf10czfrxt"
             target="_blank"
@@ -76,7 +76,7 @@ const Skills = styled.div`
   flex-direction: column;
   align-items: center;
   color: white;
-  background: #6c7d75;
+  background: #305252;
   height: 17em;
   border-radius: 10px;
   h4 {
@@ -94,7 +94,7 @@ const AboutBanner = styled.div`
   color: white;
   text-align: right;
   h4 {
-    border-bottom: solid 2px #a6695d;
+    border-bottom: solid 2px #488286;
     font-size: 1em;
     margin-bottom: 1em;
     padding-bottom: 0.4em;
@@ -106,7 +106,7 @@ const AboutBanner = styled.div`
   button {
     color: black;
     text-decoration: none;
-    background: #6c7d75;
+    background: #305252;
     text-transform: uppercase;
     padding: 0px 10px 6px 10px;
     border-radius: 5px;
