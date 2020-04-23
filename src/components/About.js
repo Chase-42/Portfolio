@@ -11,14 +11,15 @@ export default function About() {
           <h4>SKILLS</h4>
           <i class="fab fa-js"></i>
           <i class="fab fa-react"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-less"></i>
           <span
             class="iconify"
             data-icon="simple-icons:redux"
             data-inline="false"
           ></span>
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3-alt"></i>
-          <i class="fab fa-less"></i>
+          <i class="fab fa-github"></i>
           <i class="fab fa-git-square"></i>
           <i class="fab fa-node"></i>
         </Skills>
@@ -35,18 +36,16 @@ export default function About() {
           section.***
         </p>
         <p>
-          After 6 years in the specialty coffee industry, I’ve developed strong
-          creative problem-solving, organizational, and communication skills. My
-          time as a head roaster has taught me how to self-motivate,
-          continuously improving the end product through careful observation of
-          data as well as the value of being in charge of a pivotal part of a
-          small business. Working in the service industry has given me valuable
-          insight into customer interactions and hospitality. My goal is to take
-          my skills as a roaster, insights from years of customer interactions
-          and technical skills from Lambda School (which includes experience
-          working with cross-functional remote teams) and translate them into
-          creating polished and cutting-edge applications that are seamless and
-          easy to use.
+          With 3+ years of experience as a head roaster in the specialty coffee
+          industry, I have gained valuable insights into managing a pivotal part
+          of a small business. I have learned how to self-motivate, clearly
+          communicate with customers and team members, while continuously
+          improving the end product through careful observation of data. I aim
+          to take my skills as a roaster, insights from years of customer
+          interactions and technical skills from Lambda School (which includes
+          experience working with cross-functional remote teams) and translate
+          them into a career in Web Development; creating polished and
+          cutting-edge applications that are seamless and easy to use.
         </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
         <button class="hvr-wobble-vertical">
@@ -77,7 +76,7 @@ const Skills = styled.div`
   align-items: center;
   color: white;
   background: #305252;
-  height: 17em;
+  height: 18em;
   border-radius: 10px;
   h4 {
     font-size: 1em;

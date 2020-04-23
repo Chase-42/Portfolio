@@ -179,15 +179,16 @@ const ProjectSection = styled.div`
     min-height: 22.5em;
     position: relative;
     h5 {
-      color: black;
+      color: white;
       font-size: 0.75em;
       margin: 2%;
     }
     p {
-      color: black;
+      color: white;
       font-size: 0.6em;
     }
     li {
+      color: white;
       text-align: left;
       font-size: 0.6em;
     }
@@ -195,8 +196,10 @@ const ProjectSection = styled.div`
       text-decoration: none;
     }
     img {
-      width: 92%;
-      height: 10em;
+      width: 95%;
+      height: 300px;
+      overflow: hidden;
+      object-fit: cover;
     }
     i {
       color: black;
