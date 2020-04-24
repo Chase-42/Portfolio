@@ -68,6 +68,17 @@ const AboutSection = styled.div`
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
+  @media (max-width: 800px) {
+    p {
+      margin: 2%;
+    }
+    button {
+      margin-right: 2%;
+    }
+    h4 {
+      margin-right: 2%;
+    }
+  }
 `;
 
 const Skills = styled.div`

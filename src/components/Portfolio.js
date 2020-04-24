@@ -148,6 +148,7 @@ const PortfolioDiv = styled.div`
   width: 80%;
   text-align: right;
   background: none;
+  margin-top: 4em;
   h4 {
     color: white;
     border-bottom: solid 2px #488286;
@@ -170,13 +171,28 @@ const ProjectSection = styled.div`
   align-items: center;
   justify-content: space-evenly;
   flex-flow: wrap;
+  @media (max-width: 800px) {
+    flex-flow: column;
+    margin-bottom: 5%;
+    justify-content: space-between;
+  }
   div {
+    @media (max-width: 800px) {
+      width: 70%;
+      margin: 2%;
+    }
+    @media (max-width: 1435px) {
+      min-height: 25em;
+    }
+    @media (max-width: 1172px) {
+      min-height: 27em;
+    }
     width: 47%;
     text-align: center;
     margin: 1%;
     background: #77878b;
     border-radius: 10px;
-    min-height: 22.5em;
+    min-height: 23em;
     position: relative;
     h5 {
       color: white;
@@ -186,11 +202,14 @@ const ProjectSection = styled.div`
     p {
       color: white;
       font-size: 0.6em;
+      font-weight: bolder;
+      margin: 4% 1% 0% 1%;
     }
     li {
       color: white;
       text-align: left;
       font-size: 0.6em;
+      margin: 1%;
     }
     a {
       text-decoration: none;

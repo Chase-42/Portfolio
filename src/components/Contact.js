@@ -51,6 +51,9 @@ const Footer = styled.footer`
   position: relative;
   bottom: 0;
   text-align: center;
+  @media (max-width: 1435px) {
+    margin-top: 15%;
+  }
   button {
     text-decoration: none;
   }
