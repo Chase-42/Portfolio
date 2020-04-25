@@ -28,7 +28,7 @@ const AppDiv = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 90rem;
+  height: auto;
   justify-content: space-between;
 `;
 
