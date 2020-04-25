@@ -146,19 +146,19 @@ const PortfolioDiv = styled.div`
   width: 80%;
   text-align: right;
   background: none;
-  margin-top: 4em;
+  margin-top: 4rem;
   h4 {
     color: white;
     border-bottom: solid 2px #488286;
-    font-size: 1em;
-    margin-bottom: 1em;
-    padding-bottom: 0.4em;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
     margin-top: -1.5%;
     padding-left: 78%;
   }
   p {
     color: white;
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
 `;
 
@@ -175,23 +175,23 @@ const ProjectSection = styled.div`
     justify-content: space-between;
   }
   div {
-    @media (max-width: 1478px) {
-      min-height: 24.5em;
+    @media (max-width: 1495px) {
+      min-height: 24.5rem;
     }
     @media (max-width: 1300px) {
-      min-height: 25.5em;
+      min-height: 25.5rem;
     }
     @media (max-width: 1172px) {
-      min-height: 26em;
+      min-height: 26rem;
     }
     @media (max-width: 912px) {
-      min-height: 27.5em;
+      min-height: 27.5rem;
     }
     @media (max-width: 880px) {
-      min-height: 28.75em;
+      min-height: 28.75rem;
     }
     @media (max-width: 840px) {
-      min-height: 29.75em;
+      min-height: 29.75rem;
     }
     @media (max-width: 800px) {
       width: 70%;
@@ -202,23 +202,23 @@ const ProjectSection = styled.div`
     margin: 1%;
     background: #77878b;
     border-radius: 10px;
-    min-height: 23em;
+    min-height: 23rem;
     position: relative;
     h5 {
       color: white;
-      font-size: 0.75em;
+      font-size: 0.75rem;
       margin: 2%;
     }
     p {
       color: white;
-      font-size: 0.6em;
+      font-size: 0.6rem;
       font-weight: bolder;
       margin: 4% 1% 0% 1%;
     }
     li {
       color: white;
       text-align: left;
-      font-size: 0.6em;
+      font-size: 0.6rem;
       margin: 1.5%;
     }
     a {

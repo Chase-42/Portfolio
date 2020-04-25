@@ -47,7 +47,7 @@ const Footer = styled.footer`
   justify-content: space-between;
   margin-bottom: 0.5%;
   color: white;
-  width: 20em;
+  width: 20rem;
   position: relative;
   bottom: 0;
   text-align: center;
@@ -75,6 +75,6 @@ const ContactDiv = styled.div`
     text-align: center;
     position: relative;
     bottom: 0;
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
 `;

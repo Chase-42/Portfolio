@@ -28,7 +28,7 @@ const AppDiv = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 90em;
+  height: 90rem;
   justify-content: space-between;
 `;
 
@@ -37,13 +37,13 @@ export const Banner = styled.div`
   width: 90%;
   h2 {
     border-bottom: solid 2px #488286;
-    font-size: 2.25em;
-    margin-bottom: 0.8em;
-    padding-bottom: 0.4em;
+    font-size: 2.25rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
   }
   h4 {
     margin-top: -1.5%;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     margin-left: 5px;
   }
 `;
