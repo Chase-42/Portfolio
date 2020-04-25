@@ -79,6 +79,10 @@ const AboutSection = styled.div`
       margin-right: 2%;
     }
   }
+  @media (max-width: 500px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 `;
 
 const Skills = styled.div`
@@ -89,6 +93,9 @@ const Skills = styled.div`
   background: #305252;
   height: 18em;
   border-radius: 10px;
+  @media (max-width: 500px) {
+    margin-top: 75%;
+  }
   h4 {
     font-size: 1em;
     margin-top: -5%;
@@ -103,6 +110,9 @@ const AboutBanner = styled.div`
   width: 80%;
   color: white;
   text-align: right;
+  @media (max-width: 500px) {
+    text-align: center;
+  }
   h4 {
     border-bottom: solid 2px #488286;
     font-size: 1em;

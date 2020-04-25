@@ -51,6 +51,7 @@ const Footer = styled.footer`
   position: relative;
   bottom: 0;
   text-align: center;
+  margin-top: 5%;
   @media (max-width: 1435px) {
     margin-top: 15%;
   }

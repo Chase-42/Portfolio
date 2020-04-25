@@ -32,10 +32,7 @@ export default function Portfolio() {
             Yup
           </p>
           <ul>
-            <li>
-              A journal for keeping track of workouts and exercises, as well as
-              keeping notes on repetitions, weight, etc.
-            </li>
+            <li>A journal for keeping track of workouts and exercises.</li>
             <li>
               Collaborated with 2 other remote team members to create the
               application in 2 weeks.
@@ -69,8 +66,9 @@ export default function Portfolio() {
           <p>React | Styled-Components</p>
           <ul>
             <li>
-              A NASA Photo Of The Day application that consumes the NASA API and
-              then displays the "Astronomy Photo Of The Day".
+              An application that consumes the NASA API and then displays the
+              "Astronomy Photo Of The Day" as well as a description of the
+              photograph.
             </li>
             <li>Designed and built by myself over 1 day.</li>
             <a
@@ -177,17 +175,29 @@ const ProjectSection = styled.div`
     justify-content: space-between;
   }
   div {
+    @media (max-width: 1478px) {
+      min-height: 24.5em;
+    }
+    @media (max-width: 1300px) {
+      min-height: 25.5em;
+    }
+    @media (max-width: 1172px) {
+      min-height: 26em;
+    }
+    @media (max-width: 912px) {
+      min-height: 27.5em;
+    }
+    @media (max-width: 880px) {
+      min-height: 28.75em;
+    }
+    @media (max-width: 840px) {
+      min-height: 29.75em;
+    }
     @media (max-width: 800px) {
       width: 70%;
       margin: 2%;
     }
-    @media (max-width: 1435px) {
-      min-height: 25em;
-    }
-    @media (max-width: 1172px) {
-      min-height: 27em;
-    }
-    width: 47%;
+    width: 40%;
     text-align: center;
     margin: 1%;
     background: #77878b;
@@ -209,13 +219,13 @@ const ProjectSection = styled.div`
       color: white;
       text-align: left;
       font-size: 0.6em;
-      margin: 1%;
+      margin: 1.5%;
     }
     a {
       text-decoration: none;
     }
     img {
-      width: 95%;
+      width: 90%;
       height: 300px;
       overflow: hidden;
       object-fit: cover;
