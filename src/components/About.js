@@ -93,7 +93,7 @@ const Skills = styled.div`
   background: #305252;
   height: 18em;
   border-radius: 10px;
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     margin-top: 75%;
   }
   h4 {
@@ -110,7 +110,7 @@ const AboutBanner = styled.div`
   width: 80%;
   color: white;
   text-align: right;
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     text-align: center;
   }
   h4 {
