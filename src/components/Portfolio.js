@@ -52,7 +52,6 @@ export default function Portfolio() {
             </a>
           </ul>
         </div>
-
         <div class="hvr-float">
           <h5>NASA PHOTO OF THE DAY</h5>
           <img src={img3} alt="reducer" />
@@ -81,7 +80,6 @@ export default function Portfolio() {
             </a>
           </ul>
         </div>
-
         <div class="hvr-float">
           <h5>TODO APPLICATION</h5>
           <img src={img1} alt="reducer" />
@@ -112,7 +110,6 @@ export default function Portfolio() {
             </a>
           </ul>
         </div>
-
         <div class="hvr-float">
           <h5>SAVE THE ANIMALS</h5>
           <img src={img4} alt="reducer" />
@@ -196,6 +193,7 @@ const ProjectSection = styled.div`
     @media (max-width: 800px) {
       width: 70%;
       margin: 2%;
+      min-height: 20rem;
     }
     width: 40%;
     text-align: center;
@@ -214,12 +212,22 @@ const ProjectSection = styled.div`
       font-size: 0.6rem;
       font-weight: bolder;
       margin: 4% 1% 0% 1%;
+      @media (max-width: 800px) {
+        font-size: 0.75rem;
+      }
     }
     li {
       color: white;
       text-align: left;
       font-size: 0.6rem;
       margin: 1.5%;
+      @media (max-width: 800px) {
+        font-size: 0.7rem;
+      }
+      @media (max-width: 500px) {
+        font-size: 0.75rem;
+        margin-right: 10%;
+      }
     }
     a {
       text-decoration: none;
@@ -229,6 +237,9 @@ const ProjectSection = styled.div`
       height: 300px;
       overflow: hidden;
       object-fit: cover;
+      @media (max-width: 800px) {
+        height: 150px;
+      }
     }
     i {
       color: black;
@@ -247,8 +258,12 @@ const StyledButton = styled.button`
   padding: 4px 10px 4px 10px;
   border-radius: 5px;
   border: none;
-  font-size: 0.75em;
+  font-size: 0.75rem;
   margin-top: 2%;
+  @media (max-width: 500px) {
+    font-size: 0.85rem;
+    padding: 7px 13px 7px 13px;
+  }
   transition: all 0.4s ease 0s;
   a {
     text-decoration: none;
