@@ -185,15 +185,15 @@ const ProjectSection = styled.div`
       min-height: 27.5rem;
     }
     @media (max-width: 880px) {
-      min-height: 28.75rem;
+      min-height: 28rem;
     }
     @media (max-width: 840px) {
-      min-height: 29.75rem;
+      min-height: 28.5rem;
     }
     @media (max-width: 800px) {
       width: 70%;
       margin: 2%;
-      min-height: 20rem;
+      min-height: auto;
     }
     width: 40%;
     text-align: center;
