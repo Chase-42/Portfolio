@@ -76,7 +76,7 @@ const AboutBanner = styled.div`
     margin: 0% 3% 1% 0%;
     @media (max-width: 500px) {
       float: none;
-      margin-left: 15%;
+      margin-left: 12%;
     }
   }
   h4 {
@@ -120,16 +120,20 @@ const AboutBanner = styled.div`
     @media (max-width: 1150px) {
       margin-left: 40%;
     }
+    @media (max-width: 800px) {
+      margin-left: 0%;
+      padding: 10px 20px 12px 20px;
+    }
     @media (max-width: 500px) {
-      padding: 5px 15px 8px 15px;
-      margin-left: 29%;
+      margin-left: 24%;
     }
     a {
       color: white;
       font-size: 0.7rem;
       text-decoration: none;
-      @media (max-width: 500px) {
-        font-size: 0.8rem;
+      text-align: center;
+      @media (max-width: 800px) {
+        font-size: 1rem;
       }
     }
   }
@@ -162,8 +166,9 @@ const Skills = styled.div`
   align-items: center;
   color: white;
   background: #305252;
-  height: 18rem;
+  height: 19rem;
   border-radius: 10px;
+  width: 4rem;
   @media (max-width: 500px) {
     margin-top: 75%;
     height: 20rem;
