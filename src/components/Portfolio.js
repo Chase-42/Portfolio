@@ -156,6 +156,9 @@ const PortfolioDiv = styled.div`
   p {
     color: white;
     font-size: 0.7rem;
+    @media (max-width: 500px) {
+      font-size: 0.8rem;
+    }
   }
 `;
 

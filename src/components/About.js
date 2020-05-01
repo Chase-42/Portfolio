@@ -67,16 +67,17 @@ const AboutBanner = styled.div`
   width: 77%;
   color: white;
   text-align: left;
-  @media (max-width: 500px) {
-    text-align: center;
-  }
   img {
-    width: 22%;
     height: 260px;
     overflow: hidden;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 130px;
     float: left;
+    margin: 0% 3% 1% 0%;
+    @media (max-width: 500px) {
+      float: none;
+      margin-left: 15%;
+    }
   }
   h4 {
     border-bottom: solid 2px #488286;
@@ -85,12 +86,19 @@ const AboutBanner = styled.div`
     padding-bottom: 0.4rem;
     @media (max-width: 500px) {
       font-size: 1.25rem;
+      text-align: center;
     }
   }
   p {
     margin-bottom: 1%;
     font-size: 0.7rem;
     margin-left: 25%;
+    @media (max-width: 1350px) {
+      margin-left: 30%;
+    }
+    @media (max-width: 1150px) {
+      margin-left: 40%;
+    }
     @media (max-width: 500px) {
       font-size: 0.8rem;
     }
@@ -105,8 +113,16 @@ const AboutBanner = styled.div`
     border: none;
     margin-top: 2%;
     transition: all 0.4s ease 0s;
+    float: left;
+    @media (max-width: 1350px) {
+      margin-left: 30%;
+    }
+    @media (max-width: 1150px) {
+      margin-left: 40%;
+    }
     @media (max-width: 500px) {
       padding: 5px 15px 8px 15px;
+      margin-left: 29%;
     }
     a {
       color: white;
@@ -129,9 +145,7 @@ const AboutSection = styled.div`
     p {
       margin: 2%;
     }
-    button {
-      margin-right: 2%;
-    }
+
     h4 {
       margin-right: 2%;
     }
