@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import "hover.css";
 import "../hover.css";
+import profilePic from "../images/profile-picture.jpg";
 
 export default function About() {
   return (
@@ -26,6 +27,7 @@ export default function About() {
       </div>
       <AboutBanner>
         <h4>A LITTLE ABOUT ME</h4>
+        <img src={profilePic} alt="profilePicture" />
         <p>
           Hi, I’m Chase. I am a Full Stack Web Developer who loves to
           problem-solve with clean, semantic code while always learning and
@@ -43,8 +45,8 @@ export default function About() {
           improving the end product through careful observation of data. I aim
           to take my skills as a roaster, insights from years of customer
           interactions and technical skills from Lambda School (which includes
-          experience working with cross-functional remote teams) and translate
-          them into a career in Web Development; creating polished and
+          experience working with remote cross-functional remote teams) and
+          translate them into a career in Web Development; creating polished and
           cutting-edge applications that are seamless and easy to use.
         </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
@@ -61,12 +63,67 @@ export default function About() {
     </AboutSection>
   );
 }
+const AboutBanner = styled.div`
+  width: 77%;
+  color: white;
+  text-align: left;
+  @media (max-width: 500px) {
+    text-align: center;
+  }
+  img {
+    width: 22%;
+    height: 260px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+  }
+  h4 {
+    border-bottom: solid 2px #488286;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    @media (max-width: 500px) {
+      font-size: 1.25rem;
+    }
+  }
+  p {
+    margin-bottom: 1%;
+    font-size: 0.7rem;
+    margin-left: 25%;
+    @media (max-width: 500px) {
+      font-size: 0.8rem;
+    }
+  }
+  button {
+    margin-left: 25%;
+    text-decoration: none;
+    background: #305252;
+    text-transform: uppercase;
+    padding: 0px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
+    transition: all 0.4s ease 0s;
+    @media (max-width: 500px) {
+      padding: 5px 15px 8px 15px;
+    }
+    a {
+      color: white;
+      font-size: 0.7rem;
+      text-decoration: none;
+      @media (max-width: 500px) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+`;
 
 const AboutSection = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: space-evenly;
   @media (max-width: 800px) {
     p {
@@ -104,52 +161,5 @@ const Skills = styled.div`
   }
   i {
     margin: 10%;
-  }
-`;
-
-const AboutBanner = styled.div`
-  width: 80%;
-  color: white;
-  text-align: right;
-  @media (max-width: 500px) {
-    text-align: center;
-  }
-  h4 {
-    border-bottom: solid 2px #488286;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.4rem;
-    @media (max-width: 500px) {
-      font-size: 1.25rem;
-    }
-  }
-  p {
-    margin-bottom: 1%;
-    font-size: 0.7rem;
-    @media (max-width: 500px) {
-      font-size: 0.8rem;
-    }
-  }
-  button {
-    color: black;
-    text-decoration: none;
-    background: #305252;
-    text-transform: uppercase;
-    padding: 0px 10px 6px 10px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 2%;
-    transition: all 0.4s ease 0s;
-    @media (max-width: 500px) {
-      padding: 5px 15px 8px 15px;
-    }
-    a {
-      color: white;
-      font-size: 0.7rem;
-      text-decoration: none;
-      @media (max-width: 500px) {
-        font-size: 0.8rem;
-      }
-    }
   }
 `;

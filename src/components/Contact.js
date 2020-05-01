@@ -51,7 +51,7 @@ const Footer = styled.footer`
   position: relative;
   bottom: 0;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
   @media (max-width: 1435px) {
     margin-top: 15%;
   }
@@ -71,6 +71,7 @@ const Footer = styled.footer`
 
 const ContactDiv = styled.div`
   p {
+    margin-top: 5%;
     color: white;
     text-align: center;
     position: relative;
