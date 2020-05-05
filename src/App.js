@@ -35,6 +35,7 @@ const AppDiv = styled.div`
 export const Banner = styled.div`
   color: white;
   width: 90%;
+  margin-bottom: 10%;
   h2 {
     border-bottom: solid 2px #488286;
     font-size: 2.25rem;
