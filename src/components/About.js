@@ -122,7 +122,7 @@ const AboutBanner = styled.div`
     @media (max-width: 500px) {
       float: none;
       display: block;
-      margin: 0 auto;
+      margin: 15% auto;
     }
   }
   h4 {
@@ -133,6 +133,7 @@ const AboutBanner = styled.div`
     @media (max-width: 500px) {
       font-size: 1.25rem;
       text-align: center;
+      margin-bottom: 15%;
     }
   }
   p {
@@ -181,7 +182,7 @@ const Skills = styled.div`
   align-items: center;
   color: white;
   background: #305252;
-  height: 6rem;
+  height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
   width: 100%;
@@ -208,6 +209,10 @@ const Skills = styled.div`
     font-size: 1rem;
     border: none;
     padding: 0% 3% 0.5% 3%;
+    @media (max-width: 500px) {
+      padding-top: 5%;
+      font-size: 1.25rem;
+    }
   }
   i,
   span,
@@ -281,7 +286,7 @@ const ButtonDiv = styled.div`
     float: left;
     @media (max-width: 500px) {
       margin: 5% 0% 5% 0%;
-      padding: 12px 10px 12px 10px;
+      padding: 10px 10px 12px 10px;
     }
     a {
       color: white;
@@ -290,6 +295,9 @@ const ButtonDiv = styled.div`
       text-align: center;
       @media (max-width: 800px) {
         font-size: 0.8rem;
+      }
+      @media (max-width: 500px) {
+        font-size: 1rem;
       }
     }
   }

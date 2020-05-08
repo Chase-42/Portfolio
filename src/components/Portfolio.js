@@ -201,6 +201,9 @@ const ProjectSection = styled.div`
       margin: 2%;
       min-height: auto;
     }
+    @media (max-width: 500px) {
+      margin: 5%;
+    }
     width: 40%;
     text-align: center;
     margin: 1%;
