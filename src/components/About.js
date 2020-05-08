@@ -202,7 +202,7 @@ const Skills = styled.div`
   }
   @media (max-width: 500px) {
     margin-top: 10rem;
-    height: 20rem;
+    height: 30rem;
   }
   h4 {
     font-size: 1rem;
@@ -231,7 +231,6 @@ const Skills = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    // overflow-wrap: break-word;
   }
 `;
 
@@ -268,6 +267,7 @@ const ButtonDiv = styled.div`
     margin-left: 0%;
   }
   @media (max-width: 500px) {
+    margin-top: 20%;
     flex-direction: column;
   }
   button {
@@ -275,11 +275,14 @@ const ButtonDiv = styled.div`
     background: #77878b;
     text-transform: uppercase;
     padding: 0px 10px 6px 10px;
-
     border: none;
     margin: 3% 5% 0% 0%;
     transition: all 0.4s ease 0s;
     float: left;
+    @media (max-width: 500px) {
+      margin: 5% 0% 5% 0%;
+      padding: 12px 10px 12px 10px;
+    }
     a {
       color: white;
       font-size: 0.7rem;
