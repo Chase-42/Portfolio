@@ -10,7 +10,7 @@ import img4 from "../images/savetheanimals.png";
 
 export default function Portfolio() {
   return (
-    <PortfolioDiv>
+    <PortfolioDiv className="portfolio">
       <h4>Portfolio</h4>
       <p>
         Below are a handful of projects I have built while on my web-development

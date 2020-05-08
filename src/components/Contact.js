@@ -13,7 +13,7 @@ function Contact() {
   });
 
   return (
-    <ContactDiv>
+    <ContactDiv className="contact">
       <Footer>
         <div class="btn" data-clipboard-text="chaseofthecollins@gmail.com">
           <i class="fas fa-envelope"></i>
@@ -51,7 +51,7 @@ const Footer = styled.footer`
   position: relative;
   bottom: 0;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 25%;
   @media (max-width: 1435px) {
     margin-top: 15%;
   }
