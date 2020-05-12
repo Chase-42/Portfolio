@@ -150,6 +150,7 @@ const PortfolioDiv = styled.div`
   h4 {
     @media (max-width: 500px) {
       padding-left: 0%;
+      font-size: 1.25rem;
     }
     color: white;
     border-bottom: solid 2px #488286;
@@ -163,7 +164,7 @@ const PortfolioDiv = styled.div`
     color: white;
     font-size: 0.7rem;
     @media (max-width: 500px) {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
   }
 `;

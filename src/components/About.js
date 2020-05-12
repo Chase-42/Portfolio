@@ -9,7 +9,6 @@ import profilePic from "../images/profile-picture.jpg";
 import { Icon } from "@iconify/react";
 import reduxIcon from "@iconify/icons-simple-icons/redux";
 import graphqlIcon from "@iconify/icons-cib/graphql";
-import sqliteIcon from "@iconify/icons-logos/sqlite";
 
 export default function About() {
   function scrollToPortfolio(e) {
@@ -148,7 +147,7 @@ const AboutBanner = styled.div`
       margin-left: 40%;
     }
     @media (max-width: 500px) {
-      font-size: 0.8rem;
+      font-size: .9rem;
     }
    }
   }
@@ -194,7 +193,7 @@ const Skills = styled.div`
   }
   @media (max-width: 1065px) {
     flex-direction: column;
-    height: 28rem;
+    height: 30rem;
     width: 6rem;
     float: none;
     display: block;
@@ -202,13 +201,16 @@ const Skills = styled.div`
     text-align: center;
   }
   @media (max-width: 500px) {
-    margin-top: 10rem;
-    height: 30rem;
+    margin-top: 7rem;
+    height: 33rem;
   }
   h4 {
     font-size: 1rem;
     border: none;
     padding: 0% 3% 0.5% 3%;
+    @media (max-width: 1075) {
+      margin-left: 5%;
+    }
     @media (max-width: 500px) {
       padding-top: 5%;
       font-size: 1.25rem;
@@ -228,6 +230,9 @@ const Skills = styled.div`
     }
     @media (max-width: 1200px) {
       margin-left: 2.5%;
+    }
+    @media (max-width: 1075px) {
+      margin-left: 2%;
     }
     @media (max-width: 1065px) {
       margin: 0% 0% 10% 0%;

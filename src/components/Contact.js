@@ -3,12 +3,12 @@ import styled from "styled-components";
 import Clipboard from "clipboard";
 
 function Contact() {
-  var clip = new Clipboard(".btn");
+  const clip = new Clipboard(".btn");
 
-  clip.on("success", function () {
+  clip.on("success", () => {
     alert("My email address has been copied to your clipboard.");
   });
-  clip.on("error", function () {
+  clip.on("error", () => {
     alert("That didn't work, sorry :(");
   });
 
