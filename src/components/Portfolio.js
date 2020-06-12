@@ -1,29 +1,29 @@
-import React from "react";
+import React from 'react';
 // Styles
-import styled from "styled-components";
-import "../hover.css";
+import styled from 'styled-components';
+import '../hover.css';
 // Images
-import img1 from "../images/reducer-todo-picture.png";
-import img2 from "../images/weightliftingjournal.png";
-import img3 from "../images/nasaphotooftheday.png";
-import img4 from "../images/savetheanimals.png";
+import img1 from '../images/reducer-todo-picture.png';
+import img2 from '../images/weightliftingjournal.png';
+import img3 from '../images/nasaphotooftheday.png';
+import img4 from '../images/savetheanimals.png';
 
 export default function Portfolio() {
   return (
-    <PortfolioDiv className="portfolio">
+    <PortfolioDiv className='portfolio'>
       <h4>Portfolio</h4>
       <p>
         Below are a handful of projects I have built while on my web-development
         journey.
       </p>
       <ProjectSection>
-        <div class="hvr-float">
+        <div class='hvr-float'>
           <h5>WEIGHT LIFTING JOURNAL</h5>
-          <img src={img2} alt="weightliftingjournal" />
+          <img src={img2} alt='weightliftingjournal' />
           <a
-            href="https://weightliftingjournal-welcome.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://weightliftingjournal-welcome.netlify.com/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <StyledButton>Check it out</StyledButton>
           </a>
@@ -43,22 +43,22 @@ export default function Portfolio() {
               of the application.
             </li>
             <a
-              href="https://github.com/BW-Weight-Lifting-Journal1/Front-end2"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://github.com/BW-Weight-Lifting-Journal1/Front-end2'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              {" "}
-              <i class="fab fa-github"></i>
+              {' '}
+              <i class='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class="hvr-float">
+        <div class='hvr-float'>
           <h5>NASA PHOTO OF THE DAY</h5>
-          <img src={img3} alt="reducer" />
+          <img src={img3} alt='reducer' />
           <a
-            href="https://nasa-photo-of-the-day-chase.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://nasa-photo-of-the-day-chase.netlify.com/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <StyledButton>Check it out</StyledButton>
           </a>
@@ -69,24 +69,24 @@ export default function Portfolio() {
               "Astronomy Photo Of The Day" as well as a description of the
               photograph.
             </li>
-            <li>Designed and built by myself over 1 day.</li>
+            <li>Designed, built & deployed by myself over 1 day.</li>
             <a
-              href="https://github.com/Chase-42/nasa-photo-of-the-day"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://github.com/Chase-42/nasa-photo-of-the-day'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              {" "}
-              <i class="fab fa-github"></i>
+              {' '}
+              <i class='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class="hvr-float">
+        <div class='hvr-float'>
           <h5>TODO APPLICATION</h5>
-          <img src={img1} alt="reducer" />
+          <img src={img1} alt='reducer' />
           <a
-            href="https://react-reducer-todo.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://react-reducer-todo.netlify.com/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <StyledButton>Check it out</StyledButton>
           </a>
@@ -99,38 +99,38 @@ export default function Portfolio() {
               A todo application for adding, selecting and deleting different
               tasks.
             </li>
-            <li>Designed and built by myself over 3 days.</li>
+            <li>Designed, built & deployed by myself over 3 days.</li>
             <a
-              href="https://github.com/Chase-42/reducer-todo/tree/chase-collins"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://github.com/Chase-42/reducer-todo/tree/chase-collins'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              {" "}
-              <i class="fab fa-github"></i>
+              {' '}
+              <i class='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class="hvr-float">
+        <div class='hvr-float'>
           <h5>SAVE THE ANIMALS</h5>
-          <img src={img4} alt="reducer" />
+          <img src={img4} alt='reducer' />
           <a
-            href="https://save-the-animals.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://save-the-animals.netlify.com/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <StyledButton>Check it out</StyledButton>
           </a>
           <p>HTML | CSS(LESS)</p>
           <ul>
             <li>Fully responsive, multi-page static webpage.</li>
-            <li>Designed and built by myself over 1 week.</li>
+            <li>Designed, built & deployed by myself over 1 week.</li>
             <a
-              href="https://github.com/bwpt-savetheanimals/collins-marketing-page/tree/chase-collins"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://github.com/bwpt-savetheanimals/collins-marketing-page/tree/chase-collins'
+              target='_blank'
+              rel='noopener noreferrer'
             >
-              {" "}
-              <i class="fab fa-github"></i>
+              {' '}
+              <i class='fab fa-github'></i>
             </a>
           </ul>
         </div>

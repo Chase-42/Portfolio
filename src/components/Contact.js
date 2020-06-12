@@ -1,36 +1,38 @@
-import React from "react";
-import styled from "styled-components";
-import Clipboard from "clipboard";
+import React from 'react';
+// Utils
+import Clipboard from 'clipboard';
+// Styles
+import styled from 'styled-components';
 
 function Contact() {
-  const clip = new Clipboard(".btn");
+  const clip = new Clipboard('.btn');
 
-  clip.on("success", () => {
-    alert("My email address has been copied to your clipboard.");
+  clip.on('success', () => {
+    alert('My email address has been copied to your clipboard.');
   });
-  clip.on("error", () => {
+  clip.on('error', () => {
     alert("That didn't work, sorry :(");
   });
 
   return (
-    <ContactDiv className="contact">
+    <ContactDiv>
       <Footer>
-        <div class="btn" data-clipboard-text="chaseofthecollins@gmail.com">
-          <i class="fas fa-envelope"></i>
+        <div class='btn' data-clipboard-text='chaseofthecollins@gmail.com'>
+          <i class='fas fa-envelope'></i>
         </div>
         <a
-          href="https://www.linkedin.com/in/chase-collins42/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://www.linkedin.com/in/chase-collins42/'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <i class="fab fa-linkedin-in"></i>
+          <i class='fab fa-linkedin-in'></i>
         </a>
         <a
-          href="https://github.com/Chase-42"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://github.com/Chase-42'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <i class="fab fa-github"></i>
+          <i class='fab fa-github'></i>
         </a>
       </Footer>
       <p>Copyright © Chase Collins 2020</p>

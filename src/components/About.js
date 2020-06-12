@@ -57,13 +57,8 @@ export default function About() {
             </a>
           </button>
           <button onClick={scrollToPortfolio} class='hvr-bounce-to-bottom'>
-            <a href='#' rel='noopener noreferrer'>
+            <a href='#' rel='noopener noreferrer' target='_blank'>
               View My Projects
-            </a>
-          </button>
-          <button onClick={scrollToContact} class='hvr-bounce-to-bottom'>
-            <a href='#' rel='noopener noreferrer'>
-              Contact Me
             </a>
           </button>
         </ButtonDiv>
