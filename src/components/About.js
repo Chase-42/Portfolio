@@ -1,34 +1,32 @@
-import React from "react";
+import React from 'react';
+// Components
+import Skills from './Skills';
 // Styles
-import styled from "styled-components";
-import "hover.css";
-import "../hover.css";
+import styled from 'styled-components';
+import 'hover.css';
+import '../hover.css';
 // Images
-import profilePic from "../images/profile-picture.jpg";
-// Icons
-import { Icon } from "@iconify/react";
-import reduxIcon from "@iconify/icons-simple-icons/redux";
-import graphqlIcon from "@iconify/icons-cib/graphql";
+import profilePic from '../images/profile-picture.jpg';
 
 export default function About() {
   function scrollToPortfolio(e) {
     e.preventDefault();
-    document.querySelector(".portfolio").scrollIntoView({
-      behavior: "smooth",
+    document.querySelector('.portfolio').scrollIntoView({
+      behavior: 'smooth',
     });
   }
   function scrollToContact(e) {
     e.preventDefault();
-    document.querySelector(".contact").scrollIntoView({
-      behavior: "smooth",
+    document.querySelector('.contact').scrollIntoView({
+      behavior: 'smooth',
     });
   }
   return (
     <AboutSection>
-      <div class="hvr-buzz-out"></div>
+      <div class='hvr-buzz-out'></div>
       <AboutBanner>
-        <h4>A LITTLE ABOUT ME</h4>
-        <img src={profilePic} alt="profilePicture" />
+        <h3>A LITTLE ABOUT ME</h3>
+        <img src={profilePic} alt='profilePicture' />
         <p>
           I am a Full Stack Web Developer, with meticulous attention to detail
           who loves to problem-solve with clean, semantic code while always
@@ -49,59 +47,27 @@ export default function About() {
 
         <p>If you’d like to know more, feel free to get in touch!</p>
         <ButtonDiv>
-          <button class="hvr-bounce-to-bottom">
+          <button class='hvr-bounce-to-bottom'>
             <a
-              href="https://resume.creddle.io/resume/8qf10czfrxt"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://resume.creddle.io/resume/8qf10czfrxt'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               View My Resume
             </a>
           </button>
-          <button onClick={scrollToPortfolio} class="hvr-bounce-to-bottom">
-            <a href="#" rel="noopener noreferrer">
+          <button onClick={scrollToPortfolio} class='hvr-bounce-to-bottom'>
+            <a href='#' rel='noopener noreferrer'>
               View My Projects
             </a>
           </button>
-          <button onClick={scrollToContact} class="hvr-bounce-to-bottom">
-            <a href="#" rel="noopener noreferrer">
+          <button onClick={scrollToContact} class='hvr-bounce-to-bottom'>
+            <a href='#' rel='noopener noreferrer'>
               Contact Me
             </a>
           </button>
         </ButtonDiv>
-        <Skills>
-          <h4>SKILLS</h4>
-          <i class="fab fa-js">
-            <p className="hvr-buzz-out">JavaScript</p>
-          </i>
-          <i class="fab fa-react">
-            {" "}
-            <p className="hvr-buzz-out">React</p>
-          </i>
-          <i class="fab fa-html5">
-            <p className="hvr-buzz-out">HTML</p>
-          </i>
-          <i class="fab fa-css3-alt">
-            <p className="hvr-buzz-out">CSS</p>
-          </i>
-          <i class="fab fa-less">
-            <p className="hvr-buzz-out">LESS</p>
-          </i>
-          <span>
-            <Icon icon={reduxIcon} />
-            <p className="hvr-buzz-out">Redux</p>
-          </span>
-          <i class="fab fa-github">
-            <p className="hvr-buzz-out">Git</p>
-          </i>
-          <i class="fab fa-node">
-            <p className="hvr-buzz-out">Node</p>
-          </i>
-          <span>
-            <Icon icon={graphqlIcon} flip="horizontal" />
-            <p className="hvr-buzz-out">GraphQL</p>
-          </span>
-        </Skills>
+        <Skills />
       </AboutBanner>
     </AboutSection>
   );
@@ -124,7 +90,7 @@ const AboutBanner = styled.div`
       margin: 15% auto;
     }
   }
-  h4 {
+  h3 {
     border-bottom: solid 2px #488286;
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -139,7 +105,7 @@ const AboutBanner = styled.div`
     margin-bottom: 1%;
     cursor: pointer;
     font-size: 0.7rem;
-    margin-left: 25%;
+
     @media (max-width: 1350px) {
       margin-left: 30%;
     }
@@ -171,75 +137,6 @@ const AboutSection = styled.div`
   }
   @media (max-width: 500px) {
     flex-direction: column-reverse;
-    align-items: center;
-  }
-`;
-
-const Skills = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: white;
-  background: #305252;
-  height: 5rem;
-  border-radius: 10px;
-  margin-top: 10%;
-  width: 100%;
-  @media (max-width: 1450px) {
-    width: 95%;
-  }
-  @media (max-width: 1320px) {
-    width: 93%;
-  }
-  @media (max-width: 1065px) {
-    flex-direction: column;
-    height: 30rem;
-    width: 6rem;
-    float: none;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  @media (max-width: 500px) {
-    margin-top: 7rem;
-    height: 33rem;
-  }
-  h4 {
-    font-size: 1rem;
-    border: none;
-    padding: 0% 3% 0.5% 3%;
-    @media (max-width: 1075) {
-      margin-left: 5%;
-    }
-    @media (max-width: 500px) {
-      padding-top: 5%;
-      font-size: 1.25rem;
-    }
-  }
-  i,
-  span,
-  p {
-    @media (max-width: 1450px) {
-      margin-left: 4%;
-    }
-    @media (max-width: 1320px) {
-      margin-left: 3.5%;
-    }
-    @media (max-width: 1285px) {
-      margin-left: 3%;
-    }
-    @media (max-width: 1200px) {
-      margin-left: 2.5%;
-    }
-    @media (max-width: 1075px) {
-      margin-left: 2%;
-    }
-    @media (max-width: 1065px) {
-      margin: 0% 0% 10% 0%;
-    }
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
 `;
