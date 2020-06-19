@@ -82,7 +82,7 @@ const Section = styled.div`
     display: flex;
     margin-left: 2%;
     @media (max-width: 600px) {
-      margin-right: 36%;
+      margin-right: 38%;
     }
     div,
     a {
