@@ -56,20 +56,28 @@ const SkillsDiv = styled.div`
   border-radius: 10px;
   margin-top: 10%;
   @media (max-width: 3840px) {
-    width: 50rem;
+    width: 45rem;
   }
   @media (max-width: 2650px) {
     width: 43rem;
   }
-  @media (max-width: 1900px) {
-    width: 40rem;
+  @media (max-width: 2333px) {
+    width: 38rem;
   }
-
-  @media (max-width: 1450px) {
+  @media (max-width: 2072px) {
     width: 35rem;
   }
-  @media (max-width: 1290px) {
-    width: 30rem;
+  @media (max-width: 1915px) {
+    width: 33rem;
+  }
+  @media (max-width: 1800px) {
+    width: 31rem;
+  }
+  @media (max-width: 1425px) {
+    width: 29rem;
+  }
+  @media (max-width: 1200px) {
+    width: 27rem;
   }
   @media (max-width: 1065px) {
     flex-direction: column;
@@ -93,13 +101,19 @@ const SkillsDiv = styled.div`
   }
   i,
   span {
-    @media (max-width: 1450px) {
+    @media (max-width: 2333px) {
+      margin-left: 4.75%;
+    }
+    @media (max-width: 2072px) {
+      margin-left: 4.25%;
+    }
+    @media (max-width: 1915px) {
       margin-left: 4%;
     }
-    @media (max-width: 1320px) {
+    @media (max-width: 1800px) {
       margin-left: 3.5%;
     }
-    @media (max-width: 1285px) {
+    @media (max-width: 1425px) {
       margin-left: 3%;
     }
     @media (max-width: 1200px) {
