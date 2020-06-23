@@ -53,9 +53,7 @@ export default function About() {
             </a>
           </button>
           <button onClick={scrollToPortfolio} class='hvr-bounce-to-bottom'>
-            <a href='#' rel='noopener noreferrer' target='_blank'>
-              View My Projects
-            </a>
+            <span>View My Projects</span>
           </button>
         </ButtonDiv>
         <Skills />
@@ -181,11 +179,13 @@ const ButtonDiv = styled.div`
       margin: 5% 0% 5% 0%;
       padding: 10px 10px 12px 10px;
     }
-    a {
+    a,
+    span {
       color: white;
       font-size: 0.7rem;
       text-decoration: none;
       text-align: center;
+      cursor: pointer;
       @media (max-width: 800px) {
         font-size: 0.8rem;
       }
