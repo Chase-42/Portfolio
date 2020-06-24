@@ -42,6 +42,16 @@ function Contact() {
 
 export default Contact;
 
+const ContactDiv = styled.div`
+  p {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-size: 0.5rem;
+  }
+`;
 const Footer = styled.footer`
   display: flex;
   flex-direction: row;
@@ -68,16 +78,5 @@ const Footer = styled.footer`
     &:hover {
       transform: scale(1.2);
     }
-  }
-`;
-
-const ContactDiv = styled.div`
-  p {
-    margin-top: 5%;
-    color: white;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    font-size: 0.5rem;
   }
 `;
