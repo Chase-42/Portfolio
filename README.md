@@ -1,4 +1,4 @@
-## Chase's Portfolio
+# Chase's Portfolio
 This is my personal portfolio website I built from scratch to showcase my projects and skills. 
 
 ## Hosted Application
