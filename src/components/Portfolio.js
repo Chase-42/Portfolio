@@ -84,7 +84,7 @@ export default function Portfolio() {
           <h5>TODO APPLICATION</h5>
           <img src={img1} alt='reducer' />
           <a
-            href='https://react-reducer-todo.netlify.com/'
+            href='https://chase-todo.netlify.app/'
             target='_blank'
             rel='noopener noreferrer'
           >
