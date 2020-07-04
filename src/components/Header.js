@@ -5,7 +5,7 @@ import Clipboard from 'clipboard';
 import styled from 'styled-components';
 
 export default function Header() {
-  const clip = new Clipboard('.btn');
+  const clip = new Clipboard('.clipboard');
 
   clip.on('success', () => {
     alert('My email address has been copied to your clipboard.');
@@ -19,7 +19,10 @@ export default function Header() {
         <Section>
           <h1>Chase Collins</h1>
           <span>
-            <div class='btn' data-clipboard-text='chaseofthecollins@gmail.com'>
+            <div
+              class='clipboard'
+              data-clipboard-text='chaseofthecollins@gmail.com'
+            >
               <i class='fas fa-envelope'></i>
             </div>
             <a
@@ -66,7 +69,7 @@ const Section = styled.div`
   align-items: flex-end;
   justify-content: start;
   border-bottom: solid 2px #488286;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
   }
@@ -81,6 +84,9 @@ const Section = styled.div`
   span {
     display: flex;
     margin-left: 2%;
+    @media (max-width: 800px) {
+      margin-right: 30%;
+    }
     @media (max-width: 600px) {
       margin-right: 38%;
     }

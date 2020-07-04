@@ -17,22 +17,22 @@ function Contact() {
   return (
     <ContactDiv>
       <Footer>
-        <div class='btn' data-clipboard-text='chaseofthecollins@gmail.com'>
-          <i class='fas fa-envelope'></i>
+        <div className='btn' data-clipboard-text='chaseofthecollins@gmail.com'>
+          <i className='fas fa-envelope'></i>
         </div>
         <a
           href='https://www.linkedin.com/in/chase-collins42/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-linkedin-in'></i>
+          <i className='fab fa-linkedin-in'></i>
         </a>
         <a
           href='https://github.com/Chase-42'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </a>
       </Footer>
       <p>Copyright © Chase Collins 2020</p>

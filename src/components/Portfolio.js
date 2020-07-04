@@ -18,7 +18,7 @@ export default function Portfolio() {
         web-development journey.
       </p>
       <ProjectSection>
-        <div class='hvr-float'>
+        <div className='hvr-float'>
           <h5>ReVitalize</h5>
           <img src={img2} alt='revitalize' />
           <a
@@ -60,11 +60,11 @@ export default function Portfolio() {
               rel='noopener noreferrer'
             >
               {' '}
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class='hvr-float'>
+        <div className='hvr-float'>
           <h5>Top Movies & Shows</h5>
           <img src={img5} alt='reducer' />
           <a
@@ -97,11 +97,11 @@ export default function Portfolio() {
               rel='noopener noreferrer'
             >
               {' '}
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class='hvr-float'>
+        <div className='hvr-float'>
           <h5>NASA Photo Of The Day</h5>
           <img src={img3} alt='reducer' />
           <a
@@ -124,11 +124,11 @@ export default function Portfolio() {
               rel='noopener noreferrer'
             >
               {' '}
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class='hvr-float'>
+        <div className='hvr-float'>
           <h5>To Do Application</h5>
           <img src={img1} alt='reducer' />
           <a
@@ -154,11 +154,11 @@ export default function Portfolio() {
               rel='noopener noreferrer'
             >
               {' '}
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </ul>
         </div>
-        <div class='hvr-float'>
+        <div className='hvr-float'>
           <h5>Save The Animals</h5>
           <img src={img4} alt='reducer' />
           <a
@@ -168,7 +168,7 @@ export default function Portfolio() {
           >
             <StyledButton>Check it out</StyledButton>
           </a>
-          <p>HTML | CSS(LESS)</p>
+          <p>HTML | LESS</p>
           <ul>
             <li>
               Fully responsive, multi-page static webpage that provides
@@ -181,7 +181,7 @@ export default function Portfolio() {
               rel='noopener noreferrer'
             >
               {' '}
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </ul>
         </div>
@@ -214,6 +214,7 @@ const PortfolioDiv = styled.div`
   p {
     color: white;
     font-size: 0.7rem;
+    font-weight: bold;
     @media (max-width: 500px) {
       font-size: 0.9rem;
     }
@@ -234,7 +235,7 @@ const ProjectSection = styled.div`
     position: relative;
     h5 {
       color: white;
-      font-size: 0.75rem;
+      font-size: 0.9rem;
       margin: 2%;
     }
     p {

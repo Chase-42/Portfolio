@@ -11,30 +11,30 @@ export default function Skills() {
     <>
       <SkillsDiv>
         <h4>SKILLS</h4>
-        <i class='fab fa-js'>
+        <i className='fab fa-js'>
           <p className='hvr-buzz-out'>JavaScript</p>
         </i>
-        <i class='fab fa-react'>
+        <i className='fab fa-react'>
           {' '}
           <p className='hvr-buzz-out'>React</p>
         </i>
-        <i class='fab fa-html5'>
+        <i className='fab fa-html5'>
           <p className='hvr-buzz-out'>HTML</p>
         </i>
-        <i class='fab fa-css3-alt'>
+        <i className='fab fa-css3-alt'>
           <p className='hvr-buzz-out'>CSS</p>
         </i>
-        <i class='fab fa-less'>
+        <i className='fab fa-less'>
           <p className='hvr-buzz-out'>LESS</p>
         </i>
         <span>
           <Icon icon={reduxIcon} />
           <p className='hvr-buzz-out'>Redux</p>
         </span>
-        <i class='fab fa-github'>
+        <i className='fab fa-github'>
           <p className='hvr-buzz-out'>Git</p>
         </i>
-        <i class='fab fa-node'>
+        <i className='fab fa-node'>
           <p className='hvr-buzz-out'>Node</p>
         </i>
         <span>
@@ -71,13 +71,13 @@ const SkillsDiv = styled.div`
     width: 33rem;
   }
   @media (max-width: 1800px) {
-    width: 31rem;
+    width: 35rem;
   }
   @media (max-width: 1425px) {
-    width: 29rem;
+    width: 33rem;
   }
   @media (max-width: 1200px) {
-    width: 27rem;
+    width: 31rem;
   }
   @media (max-width: 1065px) {
     flex-direction: column;

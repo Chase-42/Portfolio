@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <AboutSection>
-      <div class='hvr-buzz-out'></div>
+      <div className='hvr-buzz-out'></div>
       <AboutBanner>
         <h3>A LITTLE ABOUT ME</h3>
         <img src={profilePic} alt='profilePicture' />
@@ -43,7 +43,7 @@ export default function About() {
 
         <p>If you’d like to know more, feel free to get in touch!</p>
         <ButtonDiv>
-          <button class='hvr-bounce-to-bottom'>
+          <button className='hvr-bounce-to-bottom'>
             <a
               href='https://resume.creddle.io/resume/8qf10czfrxt'
               target='_blank'
@@ -52,7 +52,7 @@ export default function About() {
               View My Resume
             </a>
           </button>
-          <button onClick={scrollToPortfolio} class='hvr-bounce-to-bottom'>
+          <button onClick={scrollToPortfolio} className='hvr-bounce-to-bottom'>
             <span>View My Projects</span>
           </button>
         </ButtonDiv>
