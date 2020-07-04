@@ -4,46 +4,58 @@ import styled from 'styled-components';
 import '../hover.css';
 // Images
 import img1 from '../images/reducer-todo-picture.png';
-import img2 from '../images/weightliftingjournal.png';
+import img2 from '../images/revitalize.png';
 import img3 from '../images/nasaphotooftheday.png';
 import img4 from '../images/savetheanimals.png';
+import img5 from '../images/top-shows-and-movies.png';
 
 export default function Portfolio() {
   return (
     <PortfolioDiv className='portfolio'>
       <h4>Portfolio</h4>
       <p>
-        Below are a handful of projects I have built while on my web-development
-        journey.
+        Below are a handful of projects I have built & worked on while on my
+        web-development journey.
       </p>
       <ProjectSection>
         <div class='hvr-float'>
-          <h5>WEIGHT LIFTING JOURNAL</h5>
-          <img src={img2} alt='weightliftingjournal' />
+          <h5>ReVitalize</h5>
+          <img src={img2} alt='revitalize' />
           <a
-            href='https://weightliftingjournal-welcome.netlify.com/'
+            href='https://staging.d1y2qgealrmo9w.amplifyapp.com/'
             target='_blank'
             rel='noopener noreferrer'
           >
             <StyledButton>Check it out</StyledButton>
           </a>
-          <p>
-            React | Context API | React Router | Styled-Components | Formik |
-            Yup
-          </p>
+          <p>React | SASS | Apollo | Prisma | GraphQL</p>
           <ul>
-            <li>A journal for keeping track of workouts and exercises.</li>
             <li>
-              Collaborated with 2 other remote team members to create the
-              application in 2 weeks.
+              A modern approach to building your community, ReVitalize is a
+              crowdfunding platoform that creates apprenticeship opportunities
+              to develop your skills to gain licensing.{' '}
             </li>
             <li>
-              My contributions were building the state management (via the React
-              Context API) as well as the CRUD operations for the functionality
-              of the application.
+              Collaborating with 4 remote team members to iterate through 3
+              release-canvasses of numerous bug fixes, accessibility issues and
+              addition of several new features.
+            </li>
+            <li>
+              Solely responsible for creating FAQ page to clearly represent the
+              applications intent and answer frequently asked questions users
+              might have.
+            </li>
+            <li>
+              Solely responsible for achieving 100% test coverage for the footer
+              component using Jest.
+            </li>
+            <li>
+              Pair programmed with 1 other team member to fix the footer bugs
+              and make it stay at the bottom of page throughout the entire
+              application.
             </li>
             <a
-              href='https://github.com/BW-Weight-Lifting-Journal1/Front-end2'
+              href='https://github.com/Lambda-School-Labs/Revitalize-FE'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -53,7 +65,44 @@ export default function Portfolio() {
           </ul>
         </div>
         <div class='hvr-float'>
-          <h5>NASA PHOTO OF THE DAY</h5>
+          <h5>Top Movies & Shows</h5>
+          <img src={img5} alt='reducer' />
+          <a
+            href='https://top-moves-and-shows.netlify.app'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <StyledButton>Check it out</StyledButton>
+          </a>
+          <p>React | React Router | Material-UI | Webpack </p>
+          <ul>
+            <li>
+              A fully responsive application that shows lists of top movies & tv
+              shows from the IMDB API and allows you to search for any movie or
+              show from the IMDB database.
+            </li>
+            <li>
+              Created an asynchronous custom React hook that takes in a url and
+              returns data, loading & error state, making displaying each
+              returned state easy and quick. I have since adopted this hook in
+              my NASA Photo Of The Day application as well.
+            </li>
+            <li>
+              Designed, built, bundled (via Webpack) & deployed by myself over 1
+              week.
+            </li>
+            <a
+              href='https://github.com/Chase-42/Top-Movies-and-Shows'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {' '}
+              <i class='fab fa-github'></i>
+            </a>
+          </ul>
+        </div>
+        <div class='hvr-float'>
+          <h5>NASA Photo Of The Day</h5>
           <img src={img3} alt='reducer' />
           <a
             href='https://nasa-photo-of-the-day-chase.netlify.com/'
@@ -65,9 +114,8 @@ export default function Portfolio() {
           <p>React | Styled-Components</p>
           <ul>
             <li>
-              An application that consumes the NASA API and then displays the
-              "Astronomy Photo Of The Day" as well as a description of the
-              photograph.
+              A fully responsive application that shows the "Astronomy Photo Of
+              The Day" from the NASA API along with a description.
             </li>
             <li>Designed, built & deployed by myself over 1 day.</li>
             <a
@@ -81,7 +129,7 @@ export default function Portfolio() {
           </ul>
         </div>
         <div class='hvr-float'>
-          <h5>TODO APPLICATION</h5>
+          <h5>To Do Application</h5>
           <img src={img1} alt='reducer' />
           <a
             href='https://chase-todo.netlify.app/'
@@ -96,8 +144,8 @@ export default function Portfolio() {
           </p>
           <ul>
             <li>
-              A todo application for adding, selecting and deleting different
-              tasks.
+              A fully responsive to do application for adding, selecting and
+              deleting different tasks.
             </li>
             <li>Designed, built & deployed by myself over 3 days.</li>
             <a
@@ -111,7 +159,7 @@ export default function Portfolio() {
           </ul>
         </div>
         <div class='hvr-float'>
-          <h5>SAVE THE ANIMALS</h5>
+          <h5>Save The Animals</h5>
           <img src={img4} alt='reducer' />
           <a
             href='https://save-the-animals.netlify.com/'
@@ -122,7 +170,10 @@ export default function Portfolio() {
           </a>
           <p>HTML | CSS(LESS)</p>
           <ul>
-            <li>Fully responsive, multi-page static webpage.</li>
+            <li>
+              Fully responsive, multi-page static webpage that provides
+              information for a Wildlife Conservation application.
+            </li>
             <li>Designed, built & deployed by myself over 1 week.</li>
             <a
               href='https://github.com/bwpt-savetheanimals/collins-marketing-page/tree/chase-collins'
@@ -174,43 +225,12 @@ const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  flex-flow: wrap;
-  @media (max-width: 800px) {
-    flex-flow: column;
-    margin-bottom: 5%;
-    justify-content: space-between;
-  }
   div {
-    @media (max-width: 1920px) {
-      min-height: 27.5rem;
-    }
-    @media (max-width: 1390px) {
-      min-height: 30rem;
-    }
-    @media (max-width: 1172px) {
-      min-height: 31.5rem;
-    }
-    @media (max-width: 900px) {
-      min-height: 32rem;
-    }
-    @media (max-width: 860px) {
-      min-height: 35rem;
-    }
-    @media (max-width: 800px) {
-      width: 70%;
-      margin: 2%;
-      min-height: auto;
-    }
-    @media (max-width: 500px) {
-      margin: 5%;
-    }
-    width: 40%;
+    width: 70%;
     text-align: center;
-    margin: 1%;
+    margin: 2%;
     background: #77878b;
     border-radius: 10px;
-    min-height: 23rem;
     position: relative;
     h5 {
       color: white;
@@ -244,12 +264,9 @@ const ProjectSection = styled.div`
     }
     img {
       width: 90%;
-      height: 300px;
+      height: auto;
       overflow: hidden;
       object-fit: cover;
-      @media (max-width: 800px) {
-        height: 150px;
-      }
     }
     i {
       color: black;
@@ -270,7 +287,7 @@ const StyledButton = styled.button`
   border: none;
   font-size: 0.75rem;
   margin-top: 2%;
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     font-size: 0.85rem;
     padding: 7px 13px 7px 13px;
   }
