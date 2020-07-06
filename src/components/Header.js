@@ -46,19 +46,23 @@ export default function Header() {
     </>
   );
 }
-
 export const Banner = styled.header`
   color: white;
   width: 90%;
   margin-bottom: 10%;
-  @media (max-width: 600px) {
+  h4 {
+    margin-left: 0.6%;
+    margin-top: 2%;
+  }
+  @media (max-width: 800px) {
     text-align: center;
-    h2 {
+    h1 {
       font-size: 2.5rem;
       margin-bottom: 0;
       padding-bottom: 0;
     }
     h4 {
+      margin-top: 0.75rem;
       font-size: 1.25rem;
     }
   }

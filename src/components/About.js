@@ -170,7 +170,7 @@ const ButtonDiv = styled.div`
     text-decoration: none;
     background: #77878b;
     text-transform: uppercase;
-    padding: 0px 10px 6px 10px;
+    padding: 0.2rem 0.4rem 0.3rem 0.4rem;
     border: none;
     margin: 3% 5% 0% 0%;
     transition: all 0.4s ease 0s;

@@ -214,7 +214,6 @@ const PortfolioDiv = styled.div`
   p {
     color: white;
     font-size: 0.7rem;
-    font-weight: bold;
     @media (max-width: 500px) {
       font-size: 0.9rem;
     }
@@ -226,6 +225,9 @@ const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  p {
+    font-weight: bold;
+  }
   div {
     width: 70%;
     text-align: center;
@@ -240,9 +242,9 @@ const ProjectSection = styled.div`
     }
     p {
       color: white;
-      font-size: 0.6rem;
       font-weight: bolder;
-      margin: 4% 1% 0% 1%;
+      margin: 2% 5% 0% 5%;
+      font-size: 0.75rem;
       @media (max-width: 800px) {
         font-size: 0.75rem;
       }
@@ -251,7 +253,7 @@ const ProjectSection = styled.div`
       color: white;
       text-align: left;
       font-size: 0.7rem;
-      margin: 1.5%;
+      margin: 3% 3% 3% 3%;
       @media (max-width: 800px) {
         font-size: 0.8rem;
       }
@@ -283,7 +285,7 @@ const StyledButton = styled.button`
   color: white;
   background: #191919;
   text-transform: uppercase;
-  padding: 4px 10px 4px 10px;
+  padding: 8px 14px 8px 14px;
   border-radius: 5px;
   border: none;
   font-size: 0.75rem;
