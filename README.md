@@ -1,6 +1,8 @@
 # Chase's Portfolio
 This is my personal portfolio website I built from scratch to showcase my projects and skills. 
 
+![](https://photos.google.com/photo/AF1QipPZAvyHcXEZRLfZmZibTErEwRIwV0fwOom30639)
+
 ## Hosted Application
 https://chasecollins.tech/
 
