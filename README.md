@@ -1,4 +1,4 @@
-![portfolioscreenshot](https://photos.google.com/photo/AF1QipNan8aHfyv-WrD83Y1agqLDf_4khHFh87Sx1IZN)
+![portfolioscreenshot](https://photos.app.goo.gl/mK9MgtNSZfeU35UM9)
 
 # Chase's Portfolio
 This is my personal portfolio website that I built from scratch to showcase my projects and skills. 
