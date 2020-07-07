@@ -64,6 +64,12 @@ const Footer = styled.footer`
   bottom: 0;
   text-align: center;
   margin-top: 25%;
+  @media (max-width: 375px) {
+    width: 18rem;
+  }
+  @media (max-width: 305px) {
+    width: 17rem;
+  }
   @media (max-width: 1435px) {
     margin-top: 15%;
   }

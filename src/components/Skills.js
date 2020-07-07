@@ -93,10 +93,11 @@ const SkillsDiv = styled.div`
     height: 33rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0% 3% 0.5% 3%;
     @media (max-width: 1065px) {
-      padding-top: 5%;
+      padding-top: 10%;
+      margin: 0% 0% 15% 0%;
     }
   }
   i,

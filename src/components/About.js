@@ -177,7 +177,7 @@ const ButtonDiv = styled.div`
     float: left;
     @media (max-width: 500px) {
       margin: 5% 0% 5% 0%;
-      padding: 10px 10px 12px 10px;
+      padding: 10px 10px 9px 10px;
     }
     a,
     span {

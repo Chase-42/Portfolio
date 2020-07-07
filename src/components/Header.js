@@ -77,10 +77,17 @@ const Section = styled.div`
     flex-direction: column;
     align-items: center;
   }
+  }
   color: white;
   h1 {
     font-size: 3rem;
     margin-bottom: auto;
+    @media(max-width: 395px) {
+      font-size: 2.8rem;
+    }
+    @media(max-width: 350px) {
+      font-size: 2.5rem;
+    }
   }
   button {
     text-decoration: none;
@@ -89,10 +96,22 @@ const Section = styled.div`
     display: flex;
     margin-left: 2%;
     @media (max-width: 800px) {
-      margin-right: 30%;
+      margin-right: 20%;
+    }
+    @media (max-width: 675px) {
+      margin-right: 25%;
     }
     @media (max-width: 600px) {
-      margin-right: 38%;
+      margin-right: 28%;
+    }
+    @media (max-width: 500px) {
+      margin-right: 32%;
+    }
+    @media (max-width: 450px) {
+      margin-right: 36%;
+    }
+    @media (max-width: 350px) {
+      margin-right: 42%;
     }
     div,
     a {
