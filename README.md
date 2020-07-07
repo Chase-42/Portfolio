@@ -1,4 +1,4 @@
-![portfolioscreenshot](https://lh3.googleusercontent.com/vpZO252Wl3LP-JNwI_ClZ4zHDiziYQzm-pf7EHXODqP1zBlsaSMCzNwqHmp8aZakCRwK0RqUwlu3VPODSA=w704-h440-rw)
+![portfolioscreenshot](https://get.google.com/albumarchive/100039729934440446592/album/AF1QipOo6QqbXg_pVYG-cWMCFcGMFwnCmKWnwjuepsq3/AF1QipNan8aHfyv-WrD83Y1agqLDf_4khHFh87Sx1IZN)
 
 # Chase's Portfolio
 This is my personal portfolio website that I built from scratch to showcase my projects and skills. 
