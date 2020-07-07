@@ -96,16 +96,16 @@ const Section = styled.div`
     display: flex;
     margin-left: 2%;
     @media (max-width: 800px) {
-      margin-right: 20%;
+      margin-right: 26%;
     }
     @media (max-width: 675px) {
-      margin-right: 25%;
-    }
-    @media (max-width: 600px) {
       margin-right: 28%;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       margin-right: 32%;
+    }
+    @media (max-width: 500px) {
+      margin-right: 34%;
     }
     @media (max-width: 450px) {
       margin-right: 36%;
