@@ -55,30 +55,7 @@ const SkillsDiv = styled.div`
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
-  @media (max-width: 3840px) {
-    width: 45rem;
-  }
-  @media (max-width: 2650px) {
-    width: 43rem;
-  }
-  @media (max-width: 2333px) {
-    width: 38rem;
-  }
-  @media (max-width: 2072px) {
-    width: 35rem;
-  }
-  @media (max-width: 1915px) {
-    width: 33rem;
-  }
-  @media (max-width: 1800px) {
-    width: 35rem;
-  }
-  @media (max-width: 1425px) {
-    width: 33rem;
-  }
-  @media (max-width: 1200px) {
-    width: 31rem;
-  }
+  width: 95%;
   @media (max-width: 1065px) {
     flex-direction: column;
     height: 30rem;
@@ -87,11 +64,9 @@ const SkillsDiv = styled.div`
     display: block;
     margin: 0 auto;
     text-align: center;
+    margin-top: 6rem;
   }
-  @media (max-width: 500px) {
-    margin-top: 7rem;
-    height: 33rem;
-  }
+
   h4 {
     font-size: 1.1rem;
     padding: 0% 3% 0.5% 3%;
@@ -102,25 +77,33 @@ const SkillsDiv = styled.div`
   }
   i,
   span {
-    @media (max-width: 2333px) {
-      margin-left: 4.75%;
+    @media (max-width: 2760px) {
+      margin-left: 5%;
     }
-    @media (max-width: 2072px) {
-      margin-left: 4.25%;
+    @media (max-width: 2575px) {
+      margin-left: 4.5%;
     }
-    @media (max-width: 1915px) {
+    @media (max-width: 2350px) {
       margin-left: 4%;
     }
-    @media (max-width: 1800px) {
+    @media (max-width: 2155px) {
       margin-left: 3.5%;
     }
-    @media (max-width: 1425px) {
+    @media (max-width: 2000px) {
       margin-left: 3%;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 1820px) {
       margin-left: 2.5%;
     }
+    @media (max-width: 1680px) {
+      margin-left: 2%;
+    }
+    @media (max-width: 1390px) {
+      margin-left: 1.5%;
+    }
     p {
+      font-size: 0.6rem;
+
       margin-left: 0%;
       @media (max-width: 1065px) {
         margin: 10% 0% 10% 0%;
