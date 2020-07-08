@@ -68,7 +68,7 @@ export default function Portfolio() {
           <h5>Top Movies & Shows</h5>
           <img src={img5} alt='reducer' />
           <a
-            href='https://top-moves-and-shows.netlify.app'
+            href='https://top-movies-and-shows.netlify.app'
             target='_blank'
             rel='noopener noreferrer'
           >
