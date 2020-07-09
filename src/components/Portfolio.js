@@ -153,7 +153,7 @@ export default function Portfolio() {
             </li>
             <li>Designed, built & deployed by myself over 3 days.</li>
             <a
-              href='https://github.com/Chase-42/reducer-todo/tree/chase-collins'
+              href='https://github.com/Chase-42/reducer-todo'
               target='_blank'
               rel='noopener noreferrer'
             >
