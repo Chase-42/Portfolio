@@ -66,17 +66,23 @@ const SkillsDiv = styled.div`
     text-align: center;
     margin-top: 6rem;
   }
+  @media (max-width: 800px) {
+    width: 7rem;
+    height: 32rem;
+  }
 
   h4 {
     font-size: 1.1rem;
     padding: 0% 3% 0.5% 3%;
     @media (max-width: 1065px) {
-      padding-top: 10%;
+      padding: 7%;
       margin: 0% 0% 15% 0%;
+      border-bottom: 1px solid #77878b;
     }
   }
   i,
-  span {
+  span,
+  p {
     @media (max-width: 2760px) {
       margin-left: 5%;
     }
@@ -103,10 +109,12 @@ const SkillsDiv = styled.div`
     }
     p {
       font-size: 0.6rem;
-
       margin-left: 0%;
       @media (max-width: 1065px) {
         margin: 10% 0% 10% 0%;
+      }
+      @media (max-width: 800px) {
+        font-size: 0.75rem;
       }
     }
     margin-left: 5%;

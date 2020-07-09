@@ -36,9 +36,9 @@ export default function Portfolio() {
               to develop your skills to gain licensing.{' '}
             </li>
             <li>
-              Collaborating with 4 remote team members to iterate through 3
-              release-canvasses of numerous bug fixes, accessibility issues and
-              addition of several new features.
+              Collaborating with 4 remote team members in an Agile development
+              enviroment to iterate through 3 release-canvasses of numerous bug
+              fixes, accessibility issues and addition of several new features.
             </li>
             <li>
               Solely responsible for creating FAQ page to clearly represent the
@@ -48,6 +48,10 @@ export default function Portfolio() {
             <li>
               Solely responsible for achieving 100% test coverage for the footer
               component using Jest.
+            </li>
+            <li>
+              Solely responsive for re-designing Dashboard component to be fully
+              responsive across desktop, tablet and phone views.
             </li>
             <li>
               Pair programmed with 1 other team member to fix the footer bugs
@@ -225,23 +229,28 @@ const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   p {
     font-weight: bold;
+    color: black;
   }
   div {
     width: 70%;
     text-align: center;
-    margin: 2%;
+    margin: 3%;
     background: #77878b;
     border-radius: 10px;
-    position: relative;
+
+    @media (max-width: 500px) {
+      width: 90%;
+    }
     h5 {
-      color: white;
+      color: black;
       font-size: 0.9rem;
-      margin: 2%;
+      margin: 2.5%;
     }
     p {
-      color: white;
+      color: black;
       font-weight: bolder;
       margin: 2% 5% 0% 5%;
       font-size: 0.75rem;
@@ -250,16 +259,15 @@ const ProjectSection = styled.div`
       }
     }
     li {
-      color: white;
+      color: black;
       text-align: left;
       font-size: 0.7rem;
-      margin: 3% 3% 3% 3%;
+      margin: 3% 10% 3% 3%;
       @media (max-width: 800px) {
         font-size: 0.8rem;
       }
-      @media (max-width: 500px) {
-        font-size: 0.75rem;
-        margin-right: 10%;
+      @media (max-width: 600px) {
+        font-size: 0.9rem;
       }
     }
     a {
@@ -289,10 +297,10 @@ const StyledButton = styled.button`
   border-radius: 5px;
   border: none;
   font-size: 0.75rem;
-  margin-top: 2%;
+  margin: 3% 0% 2% 0%;
   @media (max-width: 800px) {
     font-size: 0.85rem;
-    padding: 7px 13px 7px 13px;
+    padding: 9px 15px 9px 15px;
   }
   transition: all 0.4s ease 0s;
   a {
@@ -302,6 +310,6 @@ const StyledButton = styled.button`
     cursor: pointer;
     color: white;
     background: #77878b;
-    transition: all 0.4s ease 0s;
+    transition: all 0.5s ease 0;
   }
 `;

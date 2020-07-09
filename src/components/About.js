@@ -119,10 +119,6 @@ const AboutSection = styled.div`
     p {
       margin: 2%;
     }
-
-    h4 {
-      margin-right: 2%;
-    }
   }
   @media (max-width: 500px) {
     flex-direction: column-reverse;
@@ -181,7 +177,7 @@ const ButtonDiv = styled.div`
     }
     a,
     span {
-      color: white;
+      color: black;
       font-size: 0.7rem;
       text-decoration: none;
       text-align: center;
