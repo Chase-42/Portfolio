@@ -23,24 +23,30 @@ export default function About() {
         <h3>A LITTLE ABOUT ME</h3>
         <img src={profilePic} alt='profilePicture' />
         <p>
-          I am a Full Stack Web Developer, with meticulous attention to detail &
-          style who loves to problem-solve with clean, semantic code while
-          always learning and improving my skills. With 3+ years of experience
-          as a head roaster in the specialty coffee industry, I have gained
-          valuable insights into managing a pivotal part of a small business
-          through developing advanced skills in organization, problem-solving
-          and communication. I have learned how to self-motivate, clearly
-          communicate with customers and team members, while continuously
-          improving the end product through careful observation of data.
+          Hello!{' '}
+          <span role='img' aria-label='party emoji'>
+            👋
+          </span>{' '}
         </p>
         <p>
-          I aim to take my skills as a roaster, insights from years of customer
-          interactions, and technical skills from Lambda School (which includes
-          experience working with cross-functional remote teams) and translate
-          them into a career in Web Development; creating polished and
-          cutting-edge applications that are seamless and customer-focused.
+          I am a Full Stack Web Developer, with meticulous attention to detail &
+          style who loves to problem-solve with clean, semantic code while
+          always learning and improving my skills. I love to solve problems,
+          create well-designed applications with impeccable UI/UX and find deep
+          satisfaction in collaborating with teams to build software that makes
+          a difference in people's lives and the world.
         </p>
-
+        <p>
+          With 3+ years of experience as a head roaster in the specialty coffee
+          industry, I have gained valuable insights into managing a pivotal part
+          of a small business through developing advanced skills in
+          organization, problem-solving and communication. I aim to take my
+          technical skills from Lambda School (which includes experience working
+          with cross-functional remote teams) experience gained as a roaster,
+          insights from years of customer interactions, and and translate them
+          into a career in Web Development; creating polished and cutting-edge
+          applications that are seamless and customer-focused.
+        </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
         <ButtonDiv>
           <button className='hvr-bounce-to-bottom'>

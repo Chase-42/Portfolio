@@ -32,26 +32,34 @@ export default function Portfolio() {
           <ul>
             <li>
               A modern approach to building your community, ReVitalize is a
-              crowdfunding platoform that creates apprenticeship opportunities
-              to develop your skills to gain licensing.{' '}
+              crowdfunding platform that creates apprenticeship opportunities to
+              develop tradesmen's skills to gain licensing.
             </li>
             <li>
               Collaborating with 4 remote team members in an Agile development
-              enviroment to iterate through 3 release-canvasses of numerous bug
-              fixes, accessibility issues and addition of several new features.
+              environment to iterate through 3 client approved release-canvasses
+              of numerous bug fixes, accessibility issues and addition of
+              several new features.
             </li>
             <li>
-              Solely responsible for creating FAQ page to clearly represent the
-              applications intent and answer frequently asked questions users
-              might have.
-            </li>
-            <li>
-              Solely responsible for achieving 100% test coverage for the footer
-              component using Jest.
-            </li>
-            <li>
-              Solely responsive for re-designing Dashboard component to be fully
-              responsive across desktop, tablet and phone views.
+              Solely responsible for:
+              <ul>
+                <li>
+                  Constructing the FAQ page to clearly represent the
+                  application's intent and answer frequently asked questions
+                  users might have while also integrating styles with the
+                  application's existing dark mode.
+                </li>
+                <li>
+                  Achieving 100% test coverage for the footer component using
+                  Jest.
+                </li>
+                <li>
+                  Re-designing the dashboard component to fully responsive
+                  across desktop, tablet and phone views and dark mode
+                  compatible.
+                </li>
+              </ul>
             </li>
             <li>
               Pair programmed with 1 other team member to fix the footer bugs
@@ -78,7 +86,7 @@ export default function Portfolio() {
           >
             <StyledButton>Check it out</StyledButton>
           </a>
-          <p>React | React Router | Material-UI | Webpack </p>
+          <p>React | React Router | Material-UI | Webpack | Babel </p>
           <ul>
             <li>
               A fully responsive application that shows lists of top movies & tv
@@ -92,9 +100,10 @@ export default function Portfolio() {
               my NASA Photo Of The Day application as well.
             </li>
             <li>
-              Designed, built, bundled (via Webpack) & deployed by myself over 1
-              week.
+              Learned in 1 day how to configure Webpack & Babel to bundle the
+              application.
             </li>
+            <li>Designed, built, bundled & deployed by myself over 1 week.</li>
             <a
               href='https://github.com/Chase-42/Top-Movies-and-Shows'
               target='_blank'
