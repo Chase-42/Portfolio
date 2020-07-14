@@ -33,7 +33,7 @@ export default function Portfolio() {
             <li>
               A modern approach to building your community, ReVitalize is a
               crowdfunding platform that creates apprenticeship opportunities to
-              develop tradesmen's skills to gain licensing.
+              help tradesmen develop skills to gain licensing.
             </li>
             <li>
               Collaborating with 4 remote team members in an Agile development

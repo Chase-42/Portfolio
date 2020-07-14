@@ -29,12 +29,13 @@ export default function About() {
           </span>{' '}
         </p>
         <p>
-          I am a Full Stack Web Developer, with meticulous attention to detail &
-          style who loves to problem-solve with clean, semantic code while
-          always learning and improving my skills. I love to solve problems,
-          create well-designed applications with impeccable UI/UX and find deep
-          satisfaction in collaborating with teams to build software that makes
-          a difference in people's lives and the world.
+          My name is Chase. I am a Full Stack Web Developer, with meticulous
+          attention to detail & style who loves to problem-solve with clean,
+          semantic code while always learning and improving my skills. I am
+          passionate about solving problems, create well-designed applications
+          with impeccable UI/UX and find deep satisfaction in collaborating with
+          teams to build software that makes a difference in people's lives and
+          the world.
         </p>
         <p>
           With 3+ years of experience as a head roaster in the specialty coffee
@@ -45,7 +46,9 @@ export default function About() {
           with cross-functional remote teams) experience gained as a roaster,
           insights from years of customer interactions, and and translate them
           into a career in Web Development; creating polished and cutting-edge
-          applications that are seamless and customer-focused.
+          applications that are seamless and customer-focused. I'm currently
+          seeking a Front-End or Full-Stack Developer role (or internship) in
+          Northern Colorado or remotely anywhere in the world.
         </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
         <ButtonDiv>

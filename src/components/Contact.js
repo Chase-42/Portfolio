@@ -81,6 +81,9 @@ const Footer = styled.footer`
     transition: all 0.2s ease-in-out;
     margin-right: 5%;
     cursor: pointer;
+    @media (max-width: 600px) {
+      font-size: 1.2em;
+    }
     &:hover {
       transform: scale(1.2);
     }

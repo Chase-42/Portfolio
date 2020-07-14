@@ -102,24 +102,27 @@ const Section = styled.div`
       margin-right: 28%;
     }
     @media (max-width: 600px) {
-      margin-right: 32%;
+      margin-right: 38%;
     }
     @media (max-width: 500px) {
-      margin-right: 34%;
+      margin-right: 40%;
     }
     @media (max-width: 450px) {
-      margin-right: 36%;
+      margin-right: 42%;
     }
     @media (max-width: 350px) {
-      margin-right: 42%;
+      margin-right: 44%;
     }
     div,
     a {
-      margin: 0% 50% 10% 50%;
+      margin: 5% 50% 15% 50%;
     }
   }
   i {
     font-size: 0.75rem;
+    @media (max-width: 600px) {
+      font-size: .9rem;
+    }
     color: white;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
