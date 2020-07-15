@@ -32,7 +32,7 @@ export default function About() {
           My name is Chase. I am a Full Stack Web Developer, with meticulous
           attention to detail & style who loves to problem-solve with clean,
           semantic code while always learning and improving my skills. I am
-          passionate about solving problems, create well-designed applications
+          passionate about solving problems, creating well-designed applications
           with impeccable UI/UX and find deep satisfaction in collaborating with
           teams to build software that makes a difference in people's lives and
           the world.
