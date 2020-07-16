@@ -8,7 +8,7 @@ import { useDarkMode } from '../hooks/useDarkMode';
 import styled from 'styled-components';
 
 export default function Header() {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(true);
   const [darkModeStyle, setDarkModeStyle] = useDarkMode(false);
 
   const clip = new Clipboard('.btn');
@@ -42,8 +42,8 @@ export default function Header() {
           style={darkSwitchStyles}
           checked={isDarkMode}
           onChange={toggleDarkMode}
-          sunColor={'white'}
-          moonColor={'black'}
+          sunColor={'black'}
+          moonColor={'white'}
           size={45}
         />
       </DarkModeDiv>
@@ -88,7 +88,7 @@ const Banner = styled.header`
   background: linear-gradient(
     110deg,
     rgba(71, 129, 133, 0.9) 60%,
-    rgba(120, 136, 140, 0.4) 60%
+    rgba(120, 136, 140, 0.9) 60%
   );
   h4 {
     margin-left: 0.6%;

@@ -176,7 +176,7 @@ const AboutBanner = styled.div`
 `;
 
 const AboutCard = styled.section`
-  background-color: rgba(120, 136, 140, 0.4);
+  background-color: rgba(120, 136, 140, 0.9);
   padding: 2%;
   border-radius: 10px;
 `;
