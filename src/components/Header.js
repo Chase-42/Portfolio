@@ -42,8 +42,8 @@ export default function Header() {
           style={darkSwitchStyles}
           checked={isDarkMode}
           onChange={toggleDarkMode}
-          sunColor={'black'}
-          moonColor={'white'}
+          sunColor={'white'}
+          moonColor={'black'}
           size={50}
         />
       </DarkModeDiv>
@@ -172,4 +172,10 @@ const DarkModeDiv = styled.div`
   position: absolute;
   right: 0;
   top: 0;
+  svg {
+    @media (max-width: 500px) {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 `;
