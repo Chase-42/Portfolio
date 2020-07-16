@@ -42,8 +42,8 @@ export default function Header() {
           style={darkSwitchStyles}
           checked={isDarkMode}
           onChange={toggleDarkMode}
-          sunColor={'black'}
-          moonColor={'white'}
+          sunColor={'white'}
+          moonColor={'black'}
           size={45}
         />
       </DarkModeDiv>
@@ -87,7 +87,7 @@ const Banner = styled.header`
   border-radius: 10px;
   background: linear-gradient(
     110deg,
-    #488286 60%,
+    rgba(71, 129, 133, 0.9) 60%,
     rgba(120, 136, 140, 0.4) 60%
   );
   h4 {
@@ -114,7 +114,7 @@ const Section = styled.div`
   flex-direction: row;
   align-items: flex-end;
   justify-content: start;
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px white;
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;

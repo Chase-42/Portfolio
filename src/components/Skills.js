@@ -51,8 +51,8 @@ const SkillsDiv = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  color: white;
-  background: #305252;
+  background: rgba(71, 129, 133, 0.9);
+  color: black;
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
