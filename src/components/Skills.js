@@ -56,7 +56,7 @@ const SkillsDiv = styled.div`
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
-  width: 90%;
+  width: 100%;
   @media (max-width: 1065px) {
     flex-direction: column;
     height: 30rem;

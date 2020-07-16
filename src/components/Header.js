@@ -23,8 +23,8 @@ export default function Header() {
   });
 
   const darkSwitchStyles = {
-    marginRight: '.5rem',
-    marginTop: '.5rem',
+    marginRight: '.25rem',
+    marginTop: '.25rem',
   };
 
   const toggleDarkMode = (checked) => {
@@ -44,7 +44,7 @@ export default function Header() {
           onChange={toggleDarkMode}
           sunColor={'black'}
           moonColor={'white'}
-          size={50}
+          size={45}
         />
       </DarkModeDiv>
       <Banner>
@@ -82,6 +82,14 @@ export default function Header() {
 const Banner = styled.header`
   width: 90%;
   margin-bottom: 10%;
+  margin-top: 3%;
+  padding: 1%;
+  border-radius: 10px;
+  background: linear-gradient(
+    110deg,
+    #488286 60%,
+    rgba(120, 136, 140, 0.4) 60%
+  );
   h4 {
     margin-left: 0.6%;
     margin-top: 2%;
@@ -105,7 +113,7 @@ const Section = styled.div`
   flex-direction: row;
   align-items: flex-end;
   justify-content: start;
-  border-bottom: solid 2px #488286;
+  border-bottom: solid 2px black;
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
@@ -113,9 +121,9 @@ const Section = styled.div`
   }
   h1 {
     font-size: 3rem;
-    margin-bottom: auto;
-    @media(max-width: 500px) {
-      margin-top: 12%;
+    margin: 0;
+    @media(max-width: 600px) {
+      margin-top: 5%;
     }
     @media(max-width: 395px) {
       margin-top: 15%;
@@ -172,10 +180,13 @@ const DarkModeDiv = styled.div`
   position: absolute;
   right: 0;
   top: 0;
+  @media (max-width: 1244px) {
+    padding: 3% 4% 0% 0%;
+  }
   svg {
     @media (max-width: 500px) {
-      width: 2rem;
-      height: 2rem;
+      width: 1.75rem;
+      height: 1.75rem;
     }
   }
 `;

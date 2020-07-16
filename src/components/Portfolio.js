@@ -216,7 +216,6 @@ const PortfolioDiv = styled.div`
       padding-left: 0%;
       font-size: 1.25rem;
     }
-    color: white;
     border-bottom: solid 2px #488286;
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -225,7 +224,6 @@ const PortfolioDiv = styled.div`
     padding-left: 78%;
   }
   p {
-    color: white;
     font-size: 0.7rem;
     @media (max-width: 500px) {
       font-size: 0.9rem;
