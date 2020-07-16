@@ -42,8 +42,8 @@ export default function Header() {
           style={darkSwitchStyles}
           checked={isDarkMode}
           onChange={toggleDarkMode}
-          sunColor={'white'}
-          moonColor={'black'}
+          sunColor={'black'}
+          moonColor={'white'}
           size={50}
         />
       </DarkModeDiv>
