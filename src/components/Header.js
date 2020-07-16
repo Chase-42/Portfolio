@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Clipboard from 'clipboard';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 // Hooks
-import { useDarkMode } from "../hooks/useDarkMode";
+import { useDarkMode } from '../hooks/useDarkMode';
 // Styles
 import styled from 'styled-components';
 
@@ -11,63 +11,65 @@ export default function Header() {
   const [isDarkMode, setDarkMode] = useState(false);
   const [darkModeStyle, setDarkModeStyle] = useDarkMode(false);
 
-  const clip = new Clipboard('.clipboard');
+  const clip = new Clipboard('.btn');
 
+  clip.destroy();
   clip.on('success', () => {
     alert('My email address has been copied to your clipboard.');
   });
+
   clip.on('error', () => {
     alert("That didn't work, sorry :(");
   });
+
   const darkSwitchStyles = {
-    marginRight: ".5rem",
-    marginTop: ".5rem"
+    marginRight: '.5rem',
+    marginTop: '.5rem',
   };
 
   const toggleDarkMode = (checked) => {
     setDarkMode(checked);
-    
   };
 
-  const toggleMode = e => {
+  const toggleMode = (e) => {
     e.preventDefault();
     setDarkModeStyle(!darkModeStyle);
-  }
+  };
   return (
     <>
-    <DarkModeDiv onClick={toggleMode}>
-      <DarkModeSwitch
-      style={darkSwitchStyles}
-        checked={isDarkMode}
-        onChange={toggleDarkMode}
-        sunColor={"white"}
-        moonColor={"black"}
-        size={50}
-      />
+      <DarkModeDiv onClick={toggleMode}>
+        <DarkModeSwitch
+          style={darkSwitchStyles}
+          checked={isDarkMode}
+          onChange={toggleDarkMode}
+          sunColor={'black'}
+          moonColor={'white'}
+          size={50}
+        />
       </DarkModeDiv>
       <Banner>
         <Section>
           <h1>Chase Collins</h1>
           <span>
             <div
-              class='clipboard'
+              className='btn'
               data-clipboard-text='chaseofthecollins@gmail.com'
             >
-              <i class='fas fa-envelope'></i>
+              <i className='fas fa-envelope' />
             </div>
             <a
               href='https://www.linkedin.com/in/chase-collins42/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i class='fab fa-linkedin-in'></i>
+              <i className='fab fa-linkedin-in'></i>
             </a>
             <a
               href='https://github.com/Chase-42'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </span>
         </Section>
@@ -77,9 +79,7 @@ export default function Header() {
   );
 }
 
-
-
- const Banner = styled.header`
+const Banner = styled.header`
   width: 90%;
   margin-bottom: 10%;
   h4 {
@@ -114,10 +114,15 @@ const Section = styled.div`
   h1 {
     font-size: 3rem;
     margin-bottom: auto;
+    @media(max-width: 500px) {
+      margin-top: 12%;
+    }
     @media(max-width: 395px) {
+      margin-top: 15%;
       font-size: 2.8rem;
     }
     @media(max-width: 350px) {
+      margin-top: 18%;
       font-size: 2.5rem;
     }
   }
@@ -163,9 +168,8 @@ const Section = styled.div`
   }
 `;
 
-
 const DarkModeDiv = styled.div`
   position: absolute;
   right: 0;
   top: 0;
-`
+`;
