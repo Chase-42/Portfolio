@@ -45,7 +45,6 @@ export default Contact;
 const ContactDiv = styled.div`
   p {
     margin-top: 5%;
-    color: white;
     text-align: center;
     position: relative;
     bottom: 0;
@@ -58,7 +57,6 @@ const Footer = styled.footer`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0.5%;
-  color: white;
   width: 20rem;
   position: relative;
   bottom: 0;
@@ -77,7 +75,6 @@ const Footer = styled.footer`
     text-decoration: none;
   }
   i {
-    color: white;
     transition: all 0.2s ease-in-out;
     margin-right: 5%;
     cursor: pointer;

@@ -9,5 +9,17 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: #191919;
+  
+}
+
+a {
+  color: black;
+}
+
+.dark-mode {
+  background-color: #191919;
+  color: white;
+  a {
+    color: white;
+  }
 }

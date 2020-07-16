@@ -49,13 +49,14 @@ export default function Skills() {
 const SkillsDiv = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   color: white;
   background: #305252;
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
-  width: 95%;
+  width: 90%;
   @media (max-width: 1065px) {
     flex-direction: column;
     height: 30rem;

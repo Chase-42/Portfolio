@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 // Utils
 import Clipboard from 'clipboard';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+// Hooks
+import { useDarkMode } from "../hooks/useDarkMode";
 // Styles
 import styled from 'styled-components';
 
 export default function Header() {
+  const [isDarkMode, setDarkMode] = useState(false);
+  const [darkModeStyle, setDarkModeStyle] = useDarkMode(false);
+
   const clip = new Clipboard('.clipboard');
 
   clip.on('success', () => {
@@ -13,8 +19,32 @@ export default function Header() {
   clip.on('error', () => {
     alert("That didn't work, sorry :(");
   });
+  const darkSwitchStyles = {
+    marginRight: ".5rem",
+    marginTop: ".5rem"
+  };
+
+  const toggleDarkMode = (checked) => {
+    setDarkMode(checked);
+    
+  };
+
+  const toggleMode = e => {
+    e.preventDefault();
+    setDarkModeStyle(!darkModeStyle);
+  }
   return (
     <>
+    <DarkModeDiv onClick={toggleMode}>
+      <DarkModeSwitch
+      style={darkSwitchStyles}
+        checked={isDarkMode}
+        onChange={toggleDarkMode}
+        sunColor={"white"}
+        moonColor={"black"}
+        size={50}
+      />
+      </DarkModeDiv>
       <Banner>
         <Section>
           <h1>Chase Collins</h1>
@@ -46,8 +76,10 @@ export default function Header() {
     </>
   );
 }
-export const Banner = styled.header`
-  color: white;
+
+
+
+ const Banner = styled.header`
   width: 90%;
   margin-bottom: 10%;
   h4 {
@@ -67,6 +99,7 @@ export const Banner = styled.header`
     }
   }
 `;
+
 const Section = styled.div`
   display: flex;
   flex-direction: row;
@@ -78,7 +111,6 @@ const Section = styled.div`
     align-items: center;
   }
   }
-  color: white;
   h1 {
     font-size: 3rem;
     margin-bottom: auto;
@@ -123,7 +155,6 @@ const Section = styled.div`
     @media (max-width: 600px) {
       font-size: .9rem;
     }
-    color: white;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     &:hover {
@@ -131,3 +162,10 @@ const Section = styled.div`
     }
   }
 `;
+
+
+const DarkModeDiv = styled.div`
+  position: absolute;
+  right: 0;
+  top: 0;
+`

@@ -23,32 +23,32 @@ export default function About() {
         <h3>A LITTLE ABOUT ME</h3>
         <img src={profilePic} alt='profilePicture' />
         <p>
-          Hello!{' '}
+          Hello!
           <span role='img' aria-label='party emoji'>
             👋
-          </span>{' '}
+          </span>
         </p>
         <p>
           My name is Chase. I am a Full Stack Web Developer, with meticulous
           attention to detail & style who loves to problem-solve with clean,
           semantic code while always learning and improving my skills. I am
-          passionate about solving problems, creating well-designed applications
-          with impeccable UI/UX and find deep satisfaction in collaborating with
-          teams to build software that makes a difference in people's lives and
-          the world.
+          passionate about creating solutions, iterating on well-designed
+          applications with impeccable UI/UX and find deep satisfaction in
+          collaborating with teams to build software that makes a difference in
+          people's lives and the world.
         </p>
         <p>
-          With 3+ years of experience as a head roaster in the specialty coffee
-          industry, I have gained valuable insights into managing a pivotal part
-          of a small business through developing advanced skills in
-          organization, problem-solving and communication. I aim to take my
-          technical skills from Lambda School (which includes experience working
-          with cross-functional remote teams) experience gained as a roaster,
-          insights from years of customer interactions, and and translate them
-          into a career in Web Development; creating polished and cutting-edge
-          applications that are seamless and customer-focused. I'm currently
-          seeking a Front-End or Full-Stack Developer role (or internship) in
-          Northern Colorado or remotely anywhere in the world.
+          I have gained valuable insights into managing a critical department of
+          a small business through developing advanced skills in organization,
+          problem-solving and communication via my 3+ years as a head roaster in
+          the specialty coffee industry, I aim to take my technical skills from
+          Lambda School (which includes experience working with cross-functional
+          remote teams) experience gained as a roaster, insights from years of
+          customer interactions, and and translate them into a career in Web
+          Development; creating polished and cutting-edge applications that are
+          seamless and customer-focused. I'm currently seeking a Front-End or
+          Full-Stack Developer role (or internship) in Northern Colorado or
+          remotely anywhere in the world.
         </p>
         <p>If you’d like to know more, feel free to get in touch!</p>
         <ButtonDiv>
@@ -73,7 +73,6 @@ export default function About() {
 
 const AboutBanner = styled.div`
   width: 77%;
-  color: white;
   text-align: left;
   img {
     height: 260px;
