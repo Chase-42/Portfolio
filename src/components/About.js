@@ -144,15 +144,17 @@ const AboutBanner = styled.div`
     margin: 0% 3% 5% 0%;
     @media (max-width: 800px) {
       margin-bottom: 12%;
+      height: 200px;
     }
     @media (max-width: 500px) {
       float: none;
       display: block;
-      margin: 15% auto;
+      margin: 0 auto;
+      height: 150px;
     }
   }
   h3 {
-    border-bottom: solid 2px #488286;
+    border-bottom: solid 2px white;
     color: black;
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -160,7 +162,7 @@ const AboutBanner = styled.div`
     @media (max-width: 500px) {
       font-size: 1.25rem;
       text-align: center;
-      margin-bottom: 15%;
+      margin-bottom: 5%;
     }
   }
   p {

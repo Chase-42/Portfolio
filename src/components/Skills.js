@@ -68,8 +68,8 @@ const SkillsDiv = styled.div`
     margin-top: 6rem;
   }
   @media (max-width: 800px) {
-    width: 7rem;
-    height: 32rem;
+    width: 7.5rem;
+    height: 33rem;
   }
 
   h4 {
@@ -78,7 +78,7 @@ const SkillsDiv = styled.div`
     @media (max-width: 1065px) {
       padding: 7%;
       margin: 0% 0% 15% 0%;
-      border-bottom: 1px solid #77878b;
+      border-bottom: 1px solid white;
     }
   }
   i,
@@ -115,7 +115,7 @@ const SkillsDiv = styled.div`
         margin: 10% 0% 10% 0%;
       }
       @media (max-width: 800px) {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
       }
     }
     margin-left: 5%;

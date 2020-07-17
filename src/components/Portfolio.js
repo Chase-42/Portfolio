@@ -214,10 +214,10 @@ const PortfolioDiv = styled.div`
   h4 {
     @media (max-width: 500px) {
       padding-left: 0%;
-      font-size: 1.25rem;
+      font-size: 1.6rem;
     }
     border-bottom: solid 2px #488286;
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
     padding-bottom: 0.4rem;
     margin-top: -1.5%;
@@ -236,7 +236,6 @@ const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   p {
     font-weight: bold;
     color: black;
@@ -247,14 +246,17 @@ const ProjectSection = styled.div`
     margin: 3%;
     background: #77878b;
     border-radius: 10px;
-
     @media (max-width: 500px) {
-      width: 90%;
+      width: 100%;
+      margin: 5%;
     }
     h5 {
       color: black;
       font-size: 0.9rem;
       margin: 2.5%;
+      @media (max-width: 800px) {
+        font-size: 1.25rem;
+      }
     }
     p {
       color: black;
@@ -262,7 +264,7 @@ const ProjectSection = styled.div`
       margin: 2% 5% 0% 5%;
       font-size: 0.75rem;
       @media (max-width: 800px) {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
       }
     }
     li {
