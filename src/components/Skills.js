@@ -69,7 +69,7 @@ const SkillsDiv = styled.div`
   }
   @media (max-width: 800px) {
     width: 7.5rem;
-    height: 33rem;
+    height: 34rem;
   }
 
   h4 {

@@ -8,7 +8,7 @@ import { useDarkMode } from '../hooks/useDarkMode';
 import styled from 'styled-components';
 
 export default function Header() {
-  const [isDarkMode, setDarkMode] = useState(true);
+  const [isDarkMode, setDarkMode] = useState(false);
   const [darkModeStyle, setDarkModeStyle] = useDarkMode(false);
 
   const clip = new Clipboard('.btn');
