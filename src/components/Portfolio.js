@@ -212,9 +212,9 @@ const PortfolioDiv = styled.div`
     text-align: center;
   }
   h4 {
-    @media (max-width: 500px) {
+    @media (max-width: 800px) {
       padding-left: 0%;
-      font-size: 1.6rem;
+      font-size: 1.7rem;
     }
     border-bottom: solid 2px #488286;
     font-size: 1.25rem;
@@ -309,7 +309,11 @@ const StyledButton = styled.button`
   margin: 3% 0% 2% 0%;
   @media (max-width: 800px) {
     font-size: 0.85rem;
-    padding: 9px 15px 9px 15px;
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+  }
+  @media (max-width: 500px) {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
   }
   transition: all 0.4s ease 0s;
   a {
