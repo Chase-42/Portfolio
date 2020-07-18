@@ -48,7 +48,10 @@ const ContactDiv = styled.div`
     text-align: center;
     position: relative;
     bottom: 0;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    @media (max-width: 500px) {
+      font-size: 0.7rem;
+    }
   }
 `;
 const Footer = styled.footer`

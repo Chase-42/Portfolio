@@ -244,7 +244,7 @@ const ProjectSection = styled.div`
     width: 70%;
     text-align: center;
     margin: 3%;
-    background: #77878b;
+    background: rgba(120, 136, 140, 0.9);
     border-radius: 10px;
     @media (max-width: 500px) {
       width: 100%;
@@ -317,8 +317,8 @@ const StyledButton = styled.button`
   }
   &:hover {
     cursor: pointer;
-    color: white;
-    background: #77878b;
+    color: black;
+    background: rgba(120, 136, 140, 0);
     transition: all 0.5s ease 0;
   }
 `;

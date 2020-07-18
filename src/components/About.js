@@ -113,8 +113,8 @@ const ButtonDiv = styled.div`
     transition: all 0.4s ease 0s;
     float: left;
     @media (max-width: 500px) {
-      margin: 5% 0% 5% 0%;
-      padding: 10px 10px 9px 10px;
+      margin: 5% 10% 5% 10%;
+      padding: 0.75rem;
     }
     a,
     span {

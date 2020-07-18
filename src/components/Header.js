@@ -128,12 +128,12 @@ const Section = styled.div`
       margin-top: 5%;
     }
     @media(max-width: 395px) {
-      margin-top: 15%;
+      margin-top: 7%;
       font-size: 2.8rem;
     }
     @media(max-width: 350px) {
-      margin-top: 18%;
-      font-size: 2.5rem;
+      margin-top: 9%;
+      font-size: 2.6rem;
     }
   }
   button {
@@ -143,10 +143,10 @@ const Section = styled.div`
     display: flex;
     margin-left: 2%;
     @media (max-width: 800px) {
-      margin-right: 26%;
+      margin-right: 29%;
     }
     @media (max-width: 675px) {
-      margin-right: 28%;
+      margin-right: 30%;
     }
     @media (max-width: 600px) {
       margin-right: 38%;
@@ -155,10 +155,10 @@ const Section = styled.div`
       margin-right: 40%;
     }
     @media (max-width: 450px) {
-      margin-right: 42%;
+      margin-right: 46%;
     }
-    @media (max-width: 350px) {
-      margin-right: 44%;
+    @media (max-width: 375px) {
+      margin-right: 50%;
     }
     div,
     a {
@@ -167,9 +167,9 @@ const Section = styled.div`
   }
   i {
     color: black;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     @media (max-width: 600px) {
-      font-size: .9rem;
+      font-size: 1rem;
     }
     transition: all 0.2s ease-in-out;
     cursor: pointer;

@@ -15,7 +15,6 @@ export default function Skills() {
           <p className='hvr-buzz-out'>JavaScript</p>
         </i>
         <i className='fab fa-react'>
-          {' '}
           <p className='hvr-buzz-out'>React</p>
         </i>
         <i className='fab fa-html5'>
@@ -28,7 +27,7 @@ export default function Skills() {
           <p className='hvr-buzz-out'>LESS</p>
         </i>
         <span>
-          <Icon icon={reduxIcon} />
+          <Icon icon={reduxIcon} height={40} />
           <p className='hvr-buzz-out'>Redux</p>
         </span>
         <i className='fab fa-github'>
@@ -38,7 +37,7 @@ export default function Skills() {
           <p className='hvr-buzz-out'>Node</p>
         </i>
         <span>
-          <Icon icon={graphqlIcon} flip='horizontal' />
+          <Icon icon={graphqlIcon} height={40} />
           <p className='hvr-buzz-out'>GraphQL</p>
         </span>
       </SkillsDiv>
@@ -69,9 +68,8 @@ const SkillsDiv = styled.div`
   }
   @media (max-width: 800px) {
     width: 7.5rem;
-    height: 34rem;
+    height: 37rem;
   }
-
   h4 {
     font-size: 1.1rem;
     padding: 0% 3% 0.5% 3%;
@@ -84,6 +82,7 @@ const SkillsDiv = styled.div`
   i,
   span,
   p {
+    font-size: 1.7rem;
     @media (max-width: 2760px) {
       margin-left: 5%;
     }
@@ -112,7 +111,7 @@ const SkillsDiv = styled.div`
       font-size: 0.6rem;
       margin-left: 0%;
       @media (max-width: 1065px) {
-        margin: 10% 0% 10% 0%;
+        margin: 5% 0% 10% 0%;
       }
       @media (max-width: 800px) {
         font-size: 0.8rem;
