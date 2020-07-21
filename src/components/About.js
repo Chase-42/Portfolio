@@ -110,6 +110,9 @@ const ButtonDiv = styled.div`
     margin-top: 20%;
     flex-direction: column;
   }
+  @media (max-width: 700px) {
+    margin-bottom: 2%;
+  }
   button {
     text-decoration: none;
     background: black;
