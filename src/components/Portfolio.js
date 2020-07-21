@@ -238,7 +238,6 @@ const ProjectSection = styled.div`
   align-items: center;
   p {
     font-weight: bold;
-    color: black;
   }
   div {
     width: 70%;
@@ -251,7 +250,6 @@ const ProjectSection = styled.div`
       margin: 5%;
     }
     h5 {
-      color: black;
       font-size: 0.9rem;
       margin: 2.5%;
       @media (max-width: 800px) {
@@ -259,7 +257,6 @@ const ProjectSection = styled.div`
       }
     }
     p {
-      color: black;
       font-weight: bolder;
       margin: 2% 5% 0% 5%;
       font-size: 0.75rem;
@@ -268,7 +265,6 @@ const ProjectSection = styled.div`
       }
     }
     li {
-      color: black;
       text-align: left;
       font-size: 0.7rem;
       margin: 3% 10% 3% 3%;
@@ -289,7 +285,6 @@ const ProjectSection = styled.div`
       object-fit: cover;
     }
     i {
-      color: black;
       position: absolute;
       margin: 0% 2% 2% 0%;
       bottom: 0;

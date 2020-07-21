@@ -93,7 +93,6 @@ const Banner = styled.header`
   h4 {
     margin-left: 0.6%;
     margin-top: 2%;
-    color: black;
   }
   @media (max-width: 860px) {
     text-align: center;
@@ -123,7 +122,6 @@ const Section = styled.div`
   h1 {
     font-size: 3rem;
     margin: 0;
-    color: black;
     @media(max-width: 600px) {
       margin-top: 5%;
     }
@@ -166,7 +164,6 @@ const Section = styled.div`
     }
   }
   i {
-    color: black;
     font-size: 0.8rem;
     @media (max-width: 860px) {
       font-size: 1rem;

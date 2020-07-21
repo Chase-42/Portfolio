@@ -51,7 +51,6 @@ const SkillsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
   background: #478185;
-  color: black;
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;

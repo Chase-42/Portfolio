@@ -116,6 +116,7 @@ const ButtonDiv = styled.div`
   button {
     text-decoration: none;
     background: black;
+    color: white;
     text-transform: uppercase;
     padding: 0.2rem 0.4rem 0.3rem 0.4rem;
     border: none;
@@ -165,7 +166,6 @@ const AboutBanner = styled.div`
   }
   h3 {
     border-bottom: solid 2px white;
-    color: black;
     font-size: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 0.4rem;
@@ -176,7 +176,6 @@ const AboutBanner = styled.div`
     }
   }
   p {
-    color: black;
     margin-bottom: 1%;
     cursor: pointer;
     font-size: 0.7rem;
