@@ -30,7 +30,7 @@ export default function Skills() {
           <Icon icon={reduxIcon} height={'1.6rem'} />
           <p className='hvr-buzz-out'>Redux</p>
         </span>
-        <i className='fab fa-github'>
+        <i className='fab fa-git-square'>
           <p className='hvr-buzz-out'>Git</p>
         </i>
         <i className='fab fa-node'>
@@ -50,12 +50,13 @@ const SkillsDiv = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background: rgba(71, 129, 133, 0.9);
+  background: #478185;
   color: black;
   height: 5rem;
   border-radius: 10px;
   margin-top: 10%;
   width: 100%;
+  padding: 1%;
   @media (max-width: 1065px) {
     flex-direction: column;
     height: 32rem;
@@ -82,6 +83,12 @@ const SkillsDiv = styled.div`
   i,
   span,
   p {
+    cursor: pointer;
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+      color: #464648;
+    }
     font-size: 1.6rem;
     @media (max-width: 2760px) {
       margin-left: 5%;

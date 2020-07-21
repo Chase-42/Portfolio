@@ -1,6 +1,7 @@
 import React from 'react';
 // Components
 import Skills from './Skills';
+import Accordion from './accordion/Accordion';
 // Styles
 import styled from 'styled-components';
 import 'hover.css';
@@ -38,21 +39,27 @@ export default function About() {
             satisfaction in collaborating with teams to build software that
             makes a difference in people's lives and the world.
           </p>
-          <p>
-            I have gained valuable insights into managing a critical department
+          <Accordion
+            title='Learn more about me!'
+            content='<p>I have gained valuable insights into managing a critical department
             of a small business through developing advanced skills in
             organization, problem-solving and communication via my 3+ years as a
-            head roaster in the specialty coffee industry. I aim to take my
-            technical skills from Lambda School (which includes experience
+            head roaster in the specialty coffee industry.</p> 
+            <p> While attending Lambda School (and working a full-time job) over the past 11 months, 
+            I’ve completed a great deal of coursework on cutting-edge web development technologies 
+            and best practices, including Agile software development and Git Workflow. 
+            I learned and applied skills, including JavaScript(including Asynchronous patterns), 
+            React, Redux, React Router, HTML/CSS, LESS, Styled-Components, Node, Express.js, 
+            REST APIs, and SQLite in a range of web and mobile platforms, from wireframing to 
+            the final product as well as client-side and server testing.</p>
+            <p>I aim to take my technical skills from Lambda School (which includes experience
             working with cross-functional remote teams) experience gained as a
             roaster, insights from years of customer interactions, and and
             translate them into a career in Web Development; creating polished
             and cutting-edge applications that are seamless and
-            customer-focused. I'm currently seeking a Front-End or Full-Stack
-            Developer role (or internship) in Northern Colorado or remotely
-            anywhere in the world.
-          </p>
-          <p>If you’d like to know more, feel free to get in touch!</p>
+            customer-focused.</p>
+            <p>If you’d like to know more, feel free to get in touch!</p>'
+          />
           <ButtonDiv>
             <button className='hvr-bounce-to-bottom'>
               <a

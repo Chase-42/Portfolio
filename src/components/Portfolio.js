@@ -294,6 +294,10 @@ const ProjectSection = styled.div`
       margin: 0% 2% 2% 0%;
       bottom: 0;
       right: 0;
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.3);
+      }
     }
   }
 `;
@@ -322,7 +326,7 @@ const StyledButton = styled.button`
   &:hover {
     cursor: pointer;
     color: black;
-    background: rgba(120, 136, 140, 0);
+    background: #478185;
     transition: all 0.5s ease 0;
   }
 `;

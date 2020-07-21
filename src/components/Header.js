@@ -87,7 +87,7 @@ const Banner = styled.header`
   border-radius: 10px;
   background: linear-gradient(
     110deg,
-    rgba(71, 129, 133, 0.9) 60%,
+    #478185 60%,
     rgba(120, 136, 140, 0.9) 60%
   );
   h4 {
@@ -95,7 +95,7 @@ const Banner = styled.header`
     margin-top: 2%;
     color: black;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 860px) {
     text-align: center;
     h1 {
       font-size: 2.5rem;
@@ -115,7 +115,7 @@ const Section = styled.div`
   align-items: flex-end;
   justify-content: start;
   border-bottom: solid 2px white;
-  @media (max-width: 800px) {
+  @media (max-width: 860px) {
     flex-direction: column;
     align-items: center;
   }
@@ -142,22 +142,22 @@ const Section = styled.div`
   span {
     display: flex;
     margin-left: 2%;
-    @media (max-width: 800px) {
-      margin-right: 29%;
+    @media (max-width: 860px) {
+      margin-right: 34%;
     }
-    @media (max-width: 675px) {
-      margin-right: 30%;
+    @media (max-width: 705px) {
+      margin-right: 36%;
     }
-    @media (max-width: 600px) {
-      margin-right: 38%;
-    }
-    @media (max-width: 500px) {
+    @media (max-width: 605px) {
       margin-right: 40%;
     }
-    @media (max-width: 450px) {
+    @media (max-width: 505px) {
+      margin-right: 43%;
+    }
+    @media (max-width: 455px) {
       margin-right: 46%;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 380px) {
       margin-right: 50%;
     }
     div,
@@ -168,7 +168,7 @@ const Section = styled.div`
   i {
     color: black;
     font-size: 0.8rem;
-    @media (max-width: 600px) {
+    @media (max-width: 860px) {
       font-size: 1rem;
     }
     transition: all 0.2s ease-in-out;
