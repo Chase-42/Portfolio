@@ -115,6 +115,8 @@ const ButtonDiv = styled.div`
   }
   button {
     text-decoration: none;
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+      0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
     background: black;
     color: white;
     text-transform: uppercase;
@@ -151,6 +153,8 @@ const AboutBanner = styled.div`
     overflow: hidden;
     object-fit: cover;
     border-radius: 130px;
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+      0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
     float: left;
     margin: 0% 3% 5% 0%;
     @media (max-width: 800px) {
@@ -189,5 +193,8 @@ const AboutBanner = styled.div`
 const AboutCard = styled.section`
   background-color: rgba(120, 136, 140, 0.9);
   padding: 2%;
-  border-radius: 10px;
+  width: 98%;
+  border-radius: 5px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 `;

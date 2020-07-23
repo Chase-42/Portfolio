@@ -244,7 +244,9 @@ const ProjectSection = styled.div`
     text-align: center;
     margin: 3%;
     background: rgba(120, 136, 140, 0.9);
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+      0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
     @media (max-width: 500px) {
       width: 100%;
       margin: 5%;
@@ -303,6 +305,8 @@ const StyledButton = styled.button`
   text-transform: uppercase;
   padding: 8px 14px 8px 14px;
   border-radius: 5px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
   border: none;
   font-size: 0.75rem;
   margin: 3% 0% 2% 0%;
