@@ -115,8 +115,9 @@ const ButtonDiv = styled.div`
   }
   button {
     text-decoration: none;
-    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
-      0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12),
+      0px 11px 15px -7px rgba(0, 0, 0, 0.2);
     background: black;
     color: white;
     text-transform: uppercase;
