@@ -1,4 +1,4 @@
-![portfolioscreenshot](https://lh3.googleusercontent.com/pw/ACtC-3dKaQA-N0Kub3q6rY0BtTnoAQw5TvmQJGUbeLEjLImxw4_psTIZz3lzfuAmXgSI7p3jF1Vbhg5NMX41Ml-3uXgkXwEOH5JncPOJBqZHxlHsXPXM0bD7j2_HKRTSbY7Y45QB-sWIMdHs9lkOEEH0pDrX=w1905-h1080-no?authuser=0)
+![portfolioscreenshot](https://lh3.googleusercontent.com/pw/ACtC-3f7DzwpQjkusnQ-zeZjD7uUYceK212_Gxa2usPmdnf9dKvjFI6x_fa8E_sAB7NdjR4mn-Ah5IlhZhhIB20GtkdMk6Ll3H3bcPGwvRdqLNdYsVFoYkd5O-PCAEUtSbo2HxrBVHogBPx1q2FGabzQiiD-=w1906-h1080-no?authuser=0)
 
 # Chase's Portfolio
 This is my fully responsive personal portfolio website that I designed, built & deployed from scratch to showcase my projects and skills. 
