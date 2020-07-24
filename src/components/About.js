@@ -4,7 +4,6 @@ import Skills from './Skills';
 import Accordion from './accordion/Accordion';
 // Styles
 import styled from 'styled-components';
-import 'hover.css';
 import '../hover.css';
 // Images
 import profilePic from '../images/profile-picture.jpg';

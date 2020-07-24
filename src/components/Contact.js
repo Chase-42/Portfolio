@@ -43,6 +43,7 @@ function Contact() {
 export default Contact;
 
 const ContactDiv = styled.div`
+  width: 100%;
   p {
     margin-top: 5%;
     text-align: center;
@@ -59,18 +60,12 @@ const Footer = styled.footer`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5%;
-  width: 20rem;
+  margin: auto;
+  width: 70%;
   position: relative;
   bottom: 0;
   text-align: center;
   margin-top: 25%;
-  @media (max-width: 375px) {
-    width: 18rem;
-  }
-  @media (max-width: 305px) {
-    width: 17rem;
-  }
   @media (max-width: 1435px) {
     margin-top: 15%;
   }
