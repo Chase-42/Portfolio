@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 // Utils
 import Clipboard from 'clipboard';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
+// Components
+import ScrollToTop from './ScrollToTop';
 // Hooks
 import { useDarkMode } from '../hooks/useDarkMode';
 // Styles
@@ -75,6 +77,7 @@ export default function Header() {
         </Section>
         <h4>Full Stack Developer</h4>
       </Banner>
+      <ScrollToTop />
     </>
   );
 }
