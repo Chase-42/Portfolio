@@ -1,6 +1,6 @@
 * {
   font-size: calc(10px + 2vmin);
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 html,
@@ -14,6 +14,9 @@ body {
 
 a {
   color: black;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .dark-mode {
