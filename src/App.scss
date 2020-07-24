@@ -38,6 +38,12 @@ a {
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
   }
+  @media(max-width: 425px) {
+    right: 0rem;
+    span {
+      font-size: 2rem;
+    }
+  }
 }
 
 @keyframes fadeIn {
