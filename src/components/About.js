@@ -33,17 +33,19 @@ export default function About() {
             My name is Chase. I am a Full Stack Web Developer, with meticulous
             attention to detail & style who loves to problem-solve with clean,
             semantic code while always learning, improving & broadening my
-            skills. I am passionate about creating solutions, iterating on
-            well-designed applications with impeccable UI/UX and find deep
-            satisfaction in collaborating with teams to build software that
-            makes a difference in people's lives and the world.
+            skills. I am obsessed with solving problems, designing thoughtful
+            and polished applications and find deep satisfaction in
+            collaborating with teams to build high-quality software that makes a
+            difference in people's lives and the world.
           </p>
           <Accordion
             title='Learn more about me!'
-            content='<p>I have gained valuable insights into managing a critical department
+            content='
+            <p>I am currently a Junior Full Stack Web Developer Intern at SetPatrol.</p>
+            <p>My 3+ years as a head roaster in the specialty coffee industry has given me 
+            valuable insights into managing a critical department
             of a small business through developing advanced skills in
-            organization, problem-solving and communication via my 3+ years as a
-            head roaster in the specialty coffee industry.</p> 
+            organization, problem-solving and communication</p> 
             <p> While attending Lambda School (and working a full-time job) over the past 11 months, 
             I’ve completed a great deal of coursework on cutting-edge web development technologies 
             and best practices, including Agile software development and Git Workflow. 

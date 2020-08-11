@@ -62,9 +62,10 @@ export default function Portfolio() {
               </ul>
             </li>
             <li>
-              Pair programmed with 1 other team member to fix the footer bugs
-              and make it stay at the bottom of page throughout the entire
-              application.
+              Pair programmed with several other team member to fix the footer
+              bugs and make it stay at the bottom of page throughout the entire
+              application and fix state managment issue in the dashboard
+              component.
             </li>
             <a
               href='https://github.com/Lambda-School-Labs/Revitalize-FE'
