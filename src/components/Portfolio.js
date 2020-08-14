@@ -44,6 +44,7 @@ export default function Portfolio() {
             <li>
               Solely responsible for:
               <ul>
+                f
                 <li>
                   Constructing the FAQ page to clearly represent the
                   application's intent and answer frequently asked questions
@@ -64,7 +65,7 @@ export default function Portfolio() {
             <li>
               Pair programmed with several other team member to fix the footer
               bugs and make it stay at the bottom of page throughout the entire
-              application and fix state managment issue in the dashboard
+              application and fix state management issue in the dashboard
               component.
             </li>
             <a

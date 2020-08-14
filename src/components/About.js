@@ -32,29 +32,29 @@ export default function About() {
           <p>
             My name is Chase. I am a Full Stack Web Developer, with meticulous
             attention to detail & style who loves to problem-solve with clean,
-            semantic code while always learning, improving & broadening my
-            skills. I am obsessed with solving problems, designing thoughtful
-            and polished applications and find deep satisfaction in
-            collaborating with teams to build high-quality software that makes a
-            difference in people's lives and the world.
+            semantic code while always learning & improving my skills. I am
+            obsessed with solving problems, designing thoughtful and polished
+            applications and find deep satisfaction in collaborating with teams
+            to build high-quality software that makes a difference in people's
+            lives and the world.
           </p>
           <Accordion
             title='Learn more about me!'
             content='
             <p>I am currently a Junior Full Stack Web Developer Intern at SetPatrol.</p>
-            <p>My 3+ years as a head roaster in the specialty coffee industry has given me 
+            <p>My time (3+ years) as a head roaster in the specialty coffee industry has given me 
             valuable insights into managing a critical department
             of a small business through developing advanced skills in
             organization, problem-solving and communication</p> 
-            <p> While attending Lambda School (and working a full-time job) over the past 11 months, 
+            <p> While attending Lambda School (and working a full-time job) over the past 12 months, 
             I’ve completed a great deal of coursework on cutting-edge web development technologies 
             and best practices, including Agile software development and Git Workflow. 
-            I learned and applied skills, including JavaScript(including Asynchronous patterns), 
+            I learned and applied skills, including JavaScript, 
             React, Redux, React Router, HTML/CSS, LESS, Styled-Components, Node, Express.js, 
             REST APIs, and SQLite in a range of web and mobile platforms, from wireframing to 
             the final product as well as client-side and server testing.</p>
-            <p>I aim to take my technical skills from Lambda School (which includes experience
-            working with cross-functional remote teams) experience gained as a
+            <p>I aim to take my technical skills from Lambda School and SetPatrol (which includes experience
+            working with cross-functional remote teams), experience gained as a
             roaster, insights from years of customer interactions, and and
             translate them into a career in Web Development; creating polished
             and cutting-edge applications that are seamless and

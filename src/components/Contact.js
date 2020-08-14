@@ -34,6 +34,13 @@ function Contact() {
         >
           <i className='fab fa-github'></i>
         </a>
+        <a
+          href='https://dev.to/chase42'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <i class='fab fa-dev'></i>
+        </a>
       </Footer>
       <p>Copyright © Chase Collins 2020</p>
     </ContactDiv>
@@ -77,7 +84,7 @@ const Footer = styled.footer`
     margin-right: 5%;
     cursor: pointer;
     @media (max-width: 875px) {
-      font-size: 1em;
+      font-size: 1.1em;
     }
     &:hover {
       transform: scale(1.2);

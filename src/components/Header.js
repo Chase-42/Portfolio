@@ -8,6 +8,7 @@ import ScrollToTop from './ScrollToTop';
 import { useDarkMode } from '../hooks/useDarkMode';
 // Styles
 import styled from 'styled-components';
+import { ReactComponent as YourSvg } from '../images/code_logo.svg';
 
 export default function Header() {
   const [isDarkMode, setDarkMode] = useState(false);
@@ -51,7 +52,10 @@ export default function Header() {
       </DarkModeDiv>
       <Banner>
         <Section>
-          <h1>Chase Collins</h1>
+          <div className='code-logo'>
+            <YourSvg />
+            <h1>Chase Collins</h1>
+          </div>
           <span>
             <div
               className='btn'
@@ -72,6 +76,13 @@ export default function Header() {
               rel='noopener noreferrer'
             >
               <i className='fab fa-github'></i>
+            </a>
+            <a
+              href='https://dev.to/chase42'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i class='fab fa-dev'></i>
             </a>
           </span>
         </Section>
@@ -99,7 +110,7 @@ const Banner = styled.header`
     margin-left: 0.6%;
     margin-top: 2%;
   }
-  @media (max-width: 860px) {
+  @media (max-width: 1000px) {
     text-align: center;
     h1 {
       font-size: 2.5rem;
@@ -119,7 +130,7 @@ const Section = styled.div`
   align-items: flex-end;
   justify-content: start;
   border-bottom: solid 2px white;
-  @media (max-width: 860px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
   }
@@ -127,15 +138,18 @@ const Section = styled.div`
   h1 {
     font-size: 3rem;
     margin: 0;
+    @media(max-width: 1000px) {
+      margin-top: 3%;
+    }
     @media(max-width: 600px) {
-      margin-top: 5%;
+      margin-top: -7%;
     }
     @media(max-width: 395px) {
-      margin-top: 7%;
       font-size: 2.8rem;
+      margin-top: 0%;
     }
     @media(max-width: 350px) {
-      margin-top: 9%;
+      margin-top: -5%;
       font-size: 2.6rem;
     }
   }
@@ -143,29 +157,12 @@ const Section = styled.div`
     text-decoration: none;
   }
   span {
-    display: flex;
-    margin-left: 2%;
-    @media (max-width: 860px) {
-      margin-right: 34%;
-    }
-    @media (max-width: 705px) {
-      margin-right: 36%;
-    }
-    @media (max-width: 605px) {
-      margin-right: 40%;
-    }
-    @media (max-width: 505px) {
-      margin-right: 43%;
-    }
-    @media (max-width: 455px) {
-      margin-right: 46%;
-    }
-    @media (max-width: 380px) {
-      margin-right: 50%;
-    }
-    div,
-    a {
-      margin: 5% 50% 15% 50%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+    @media(max-width: 1000px) {
+      justify-content: space-between;
+      width: 63%;
     }
   }
   i {
