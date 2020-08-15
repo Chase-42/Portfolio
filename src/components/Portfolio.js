@@ -44,7 +44,6 @@ export default function Portfolio() {
             <li>
               Solely responsible for:
               <ul>
-                f
                 <li>
                   Constructing the FAQ page to clearly represent the
                   application's intent and answer frequently asked questions

@@ -9,9 +9,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  
 }
-
 a {
   color: black;
 }
@@ -42,7 +40,7 @@ p {
     transform: scale(1.1);
   }
   @media(max-width: 600px) {
-    right: 0.4rem;
+    right: 0.2rem;
     i {
       font-size: 2.7rem;
     }
@@ -60,6 +58,7 @@ p {
 
 .code-logo {
   svg {
+    color: white;
     @media(max-width: 1000px) {
       width: 5rem;
       height: 5rem;
