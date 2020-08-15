@@ -146,7 +146,7 @@ const Section = styled.div`
     }
     @media(max-width: 395px) {
       font-size: 2.8rem;
-      margin-top: 0%;
+      margin-top: -5%;
     }
     @media(max-width: 350px) {
       margin-top: -5%;
