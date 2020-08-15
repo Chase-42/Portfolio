@@ -52,7 +52,6 @@ export default Contact;
 const ContactDiv = styled.div`
   width: 100%;
   p {
-    margin-top: 5%;
     text-align: center;
     position: relative;
     bottom: 0;
