@@ -1,84 +1,84 @@
 * {
-  font-size: calc(10px + 2vmin);
-  font-family: 'Titillium Web', sans-serif;
+	font-size: calc(10px + 2vmin);
+	font-family: 'Titillium Web', sans-serif;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 a {
-  color: black;
+	color: black;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .dark-mode {
-  background-color: #191919;
-  color: white;
-  a {
-    color: white;
-  }
+	background-color: #191919;
+	color: white;
+	a {
+		color: white;
+	}
 }
 
 .scroll-to-top {
-  transform: translate3d(0,0,0);
-  position: fixed;
-  bottom: 0rem;
-  right: .6rem;
-  animation: fadeIn 700ms ease-in-out 1s both;
-  cursor: pointer;
-  i {
-    font-size: 2rem;
-  }
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.1);
-  }
-  @media(max-width: 600px) {
-    right: 0.2rem;
-    i {
-      font-size: 2.7rem;
-    }
-  }
+	transform: translate3d(0, 0, 0);
+	position: fixed;
+	bottom: 0rem;
+	right: 0.6rem;
+	animation: fadeIn 700ms ease-in-out 1s both;
+	cursor: pointer;
+	i {
+		font-size: 2rem;
+	}
+	&:hover {
+		transition: all 0.2s ease-in-out;
+		transform: scale(1.1);
+	}
+	@media (max-width: 600px) {
+		right: 0.2rem;
+		i {
+			font-size: 2.7rem;
+		}
+	}
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .code-logo {
-  svg {
-    color: white;
-    @media(max-width: 1000px) {
-      width: 5rem;
-      height: 5rem;
-    }
-    @media(max-width: 500px) {
-      width: 6rem;
-      height: 6rem;
-    }
-      @media(max-width: 300px) {
-      width: 7rem;
-      height: 7rem;
-    }
-  width: 4.5rem;
-  height: 4.5rem;
-  margin-top: 5%;
-  }
-  display: flex;
-  flex-direction: row;
-  @media(max-width: 600px) {
-    flex-direction: column; 
-    align-items: center;
-  }
+	svg {
+		color: white;
+		@media (max-width: 1000px) {
+			width: 5rem;
+			height: 5rem;
+		}
+		@media (max-width: 500px) {
+			width: 6rem;
+			height: 6rem;
+		}
+		@media (max-width: 300px) {
+			width: 7rem;
+			height: 7rem;
+		}
+		width: 4.5rem;
+		height: 4.5rem;
+		margin-top: 5%;
+	}
+	display: flex;
+	flex-direction: row;
+	@media (max-width: 600px) {
+		flex-direction: column;
+		align-items: center;
+	}
 }

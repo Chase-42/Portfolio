@@ -9,43 +9,40 @@ import '../hover.css';
 import profilePic from '../images/profile-picture.jpg';
 
 export default function About() {
-  function scrollToPortfolio(e) {
-    e.preventDefault();
-    document.querySelector('.portfolio').scrollIntoView({
-      behavior: 'smooth',
-    });
-  }
+	function scrollToPortfolio(e) {
+		e.preventDefault();
+		document.querySelector('.portfolio').scrollIntoView({
+			behavior: 'smooth',
+		});
+	}
 
-  return (
-    <AboutSection>
-      <div className='hvr-buzz-out'></div>
-      <AboutBanner>
-        <AboutCard>
-          <h3>A LITTLE ABOUT ME</h3>
-          <img src={profilePic} alt='profilePicture' />
-          <p>
-            Hello!
-            <span role='img' aria-label='party emoji'>
-              👋
-            </span>
-          </p>
-          <p>
-            My name is Chase. I am a Full Stack Web Developer, with meticulous
-            attention to detail & style who loves to problem-solve with clean,
-            semantic code while always learning & improving my skills. I am
-            obsessed with solving problems, designing thoughtful and polished
-            applications and find deep satisfaction in collaborating with teams
-            to build high-quality software that makes a difference in people's
-            lives and the world.
-          </p>
-          <Accordion
-            title='Learn more about me!'
-            content='
-            <p>I am currently a Junior Full Stack Web Developer Intern at SetPatrol.</p>
-            <p>My time (3+ years) as a head roaster in the specialty coffee industry has given me 
+	return (
+		<AboutSection>
+			<div className='hvr-buzz-out'></div>
+			<AboutBanner>
+				<AboutCard>
+					<h3>A LITTLE ABOUT ME</h3>
+					<img src={profilePic} alt='profilePicture' />
+					<p>
+						Hello!
+						<span role='img' aria-label='party emoji'>
+							👋
+						</span>
+					</p>
+					<p>
+						I'm Chase Collins, a Full Stack Development Specialist at High Rise Media
+						& Junior Web Developer Intern at SetPatrol.
+					</p>
+					<Accordion
+						title='Learn more about me!'
+						content='
+            <p>Since January of 2019 I have been learning and falling in love with programming, 
+            but my journey started for real in August of 2019 when I joined Lambda School to take 
+            their Full-Stack Web Development & Computer Science course.</p>
+            <p>My previous career as a head roaster in the specialty coffee industry has given me 
             valuable insights into managing a critical department
             of a small business through developing advanced skills in
-            organization, problem-solving and communication</p> 
+            organization, problem-solving and communication.<p/> 
             <p> While attending Lambda School (and working a full-time job) over the past 12 months, 
             I’ve completed a great deal of coursework on cutting-edge web development technologies 
             and best practices, including Agile software development and Git Workflow. 
@@ -53,99 +50,99 @@ export default function About() {
             React, Redux, React Router, HTML/CSS, LESS, Styled-Components, Node, Express.js, 
             REST APIs, and SQLite in a range of web and mobile platforms, from wireframing to 
             the final product as well as client-side and server testing.</p>
-            <p>I aim to take my technical skills from Lambda School and SetPatrol (which includes experience
-            working with cross-functional remote teams), experience gained as a
-            roaster, insights from years of customer interactions, and and
-            translate them into a career in Web Development; creating polished
-            and cutting-edge applications that are seamless and
-            customer-focused.</p>
+            <p>At the end of July 2020 I joined SetPatrol as a Junior Web Developer Intern.  
+            I have pair-programmed with the lead developer to fix a multitude of bugs across the website, 
+            gained valuable experience developing production PHP, JavaScript, HTML & CSS code all while 
+            navigating an existing codebase in Wordpress. I also designed, developed and styled 
+            <a href="https://codepen.io/ChaseOfTheCollins/pen/xxVGwae?editors=1111" target="_blank"
+              rel="noopener noreferrer">double slider</a> (using HTML, CSS & JavaScript) for the 
+            website that has a gear value and days you want to rent value
+            and outputs an amount of money you could earn via the two other values.</p>
+            <p>At the end of August 2020 I joined High Rise Media as a Full Stack Development 
+            Specialist. </p>
             <p>If you’d like to know more, feel free to get in touch!</p>'
-          />
-          <ButtonDiv>
-            <button className='hvr-bounce-to-bottom'>
-              <a
-                href='https://resume.creddle.io/resume/8qf10czfrxt'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                View My Resume
-              </a>
-            </button>
-            <button
-              onClick={scrollToPortfolio}
-              className='hvr-bounce-to-bottom'
-            >
-              <span>View My Projects</span>
-            </button>
-          </ButtonDiv>
-        </AboutCard>
-        <Skills />
-      </AboutBanner>
-    </AboutSection>
-  );
+					/>
+					<ButtonDiv>
+						<button className='hvr-bounce-to-bottom'>
+							<a
+								href='https://resume.creddle.io/resume/8qf10czfrxt'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								View My Resume
+							</a>
+						</button>
+						<button onClick={scrollToPortfolio} className='hvr-bounce-to-bottom'>
+							<span>View My Projects</span>
+						</button>
+					</ButtonDiv>
+				</AboutCard>
+				<Skills />
+			</AboutBanner>
+		</AboutSection>
+	);
 }
 
 const AboutSection = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-evenly;
-  margin-bottom: 10%;
-  @media (max-width: 800px) {
-    p {
-      margin: 2%;
-    }
-  }
-  @media (max-width: 500px) {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-evenly;
+	margin-bottom: 10%;
+	@media (max-width: 800px) {
+		p {
+			margin: 2%;
+		}
+	}
+	@media (max-width: 500px) {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
 `;
 
 const ButtonDiv = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  @media (max-width: 500px) {
-    margin-top: 20%;
-    flex-direction: column;
-  }
-  @media (max-width: 700px) {
-    margin-bottom: 2%;
-  }
-  button {
-    text-decoration: none;
-    box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
-      0px 9px 46px 8px rgba(0, 0, 0, 0.12),
-      0px 11px 15px -7px rgba(0, 0, 0, 0.2);
-    background: black;
-    color: white;
-    text-transform: uppercase;
-    padding: 0.2rem 0.4rem 0.3rem 0.4rem;
-    border: none;
-    margin: 3% 5% 0% 0%;
-    transition: all 0.4s ease 0s;
-    float: left;
-    @media (max-width: 500px) {
-      margin: 5% 10% 5% 10%;
-      padding: 0.75rem;
-    }
-    a,
-    span {
-      color: white;
-      font-size: 0.7rem;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-      @media (max-width: 800px) {
-        font-size: 0.8rem;
-      }
-      @media (max-width: 500px) {
-        font-size: 1rem;
-      }
-    }
-  }
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	@media (max-width: 500px) {
+		margin-top: 20%;
+		flex-direction: column;
+	}
+	@media (max-width: 700px) {
+		margin-bottom: 2%;
+	}
+	button {
+		text-decoration: none;
+		box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+			0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+		background: black;
+		color: white;
+		text-transform: uppercase;
+		padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+		border: none;
+		margin: 3% 5% 0% 0%;
+		transition: all 0.4s ease 0s;
+		float: left;
+		@media (max-width: 500px) {
+			margin: 5% 10% 5% 10%;
+			padding: 0.75rem;
+		}
+		a,
+		span {
+			color: white;
+			font-size: 0.7rem;
+			text-decoration: none;
+			text-align: center;
+			cursor: pointer;
+			@media (max-width: 800px) {
+				font-size: 0.8rem;
+			}
+			@media (max-width: 500px) {
+				font-size: 1rem;
+			}
+		}
+	}
 `;
 const AboutBanner = styled.div`
   width: 77%;
@@ -193,10 +190,10 @@ const AboutBanner = styled.div`
 `;
 
 const AboutCard = styled.section`
-  background-color: rgba(120, 136, 140, 0.9);
-  padding: 2%;
-  width: 98%;
-  border-radius: 5px;
-  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
-    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+	background-color: rgba(120, 136, 140, 0.9);
+	padding: 2%;
+	width: 98%;
+	border-radius: 5px;
+	box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+		0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 `;
