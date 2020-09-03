@@ -30,8 +30,8 @@ export default function About() {
 						</span>
 					</p>
 					<p>
-						I'm Chase Collins, a Full Stack Development Specialist at High Rise Media
-						& Junior Web Developer Intern at SetPatrol.
+						I'm Chase, currently a Full Stack Development Specialist at High Rise
+						Media & Junior Web Developer Intern at SetPatrol.
 					</p>
 					<Accordion
 						title='Learn more about me!'
@@ -190,7 +190,7 @@ const AboutBanner = styled.div`
 `;
 
 const AboutCard = styled.section`
-	background-color: rgba(120, 136, 140, 0.9);
+	background-color: rgba(120, 136, 140, 0.5);
 	padding: 2%;
 	width: 98%;
 	border-radius: 5px;

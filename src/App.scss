@@ -28,10 +28,13 @@ p {
 .scroll-to-top {
 	transform: translate3d(0, 0, 0);
 	position: fixed;
-	bottom: 0rem;
-	right: 0.6rem;
+	bottom: 0.1rem;
+	right: 0.1rem;
 	animation: fadeIn 700ms ease-in-out 1s both;
 	cursor: pointer;
+	background-color: rgba(120, 136, 140, 0.5);
+	padding: 0rem 0.5rem 0rem 0.5rem;
+	border-radius: 5px;
 	i {
 		font-size: 2rem;
 	}
@@ -39,11 +42,15 @@ p {
 		transition: all 0.2s ease-in-out;
 		transform: scale(1.1);
 	}
-	@media (max-width: 600px) {
-		right: 0.2rem;
+	@media (max-width: 500px) {
+		right: 0rem;
+		padding: 0rem 0.4rem 0rem 0.4rem;
 		i {
 			font-size: 2.7rem;
 		}
+	}
+	@media (max-width: 350px) {
+		padding: 0rem 0.25rem 0rem 0.25rem;
 	}
 }
 
