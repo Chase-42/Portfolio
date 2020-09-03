@@ -32,7 +32,7 @@ p {
 	right: 0.1rem;
 	animation: fadeIn 700ms ease-in-out 1s both;
 	cursor: pointer;
-	background-color: rgba(120, 136, 140, 0.5);
+	background-color: rgba(71, 129, 133, 0.9);
 	padding: 0rem 0.5rem 0rem 0.5rem;
 	border-radius: 5px;
 	i {
@@ -43,7 +43,7 @@ p {
 		transform: scale(1.1);
 	}
 	@media (max-width: 500px) {
-		right: 0rem;
+		right: 0.02rem;
 		padding: 0rem 0.4rem 0rem 0.4rem;
 		i {
 			font-size: 2.7rem;
