@@ -2,9 +2,10 @@ import React from 'react';
 // Styles
 import styled from 'styled-components';
 // Icons
-import { Icon } from '@iconify/react';
+import { Icon, InlineIcon } from '@iconify/react';
 import reduxIcon from '@iconify/icons-simple-icons/redux';
-import graphqlIcon from '@iconify/icons-cib/graphql';
+import logoPython from '@iconify/icons-carbon/logo-python';
+import phpIcon from '@iconify/icons-fa-brands/php';
 
 export default function Skills() {
 	return (
@@ -27,7 +28,7 @@ export default function Skills() {
 					<p className='hvr-buzz-out'>LESS</p>
 				</i>
 				<span>
-					<Icon icon={reduxIcon} height={'1.6rem'} />
+					<Icon icon={reduxIcon} height={'1rem'} />
 					<p className='hvr-buzz-out'>Redux</p>
 				</span>
 				<i className='fab fa-git-square'>
@@ -37,8 +38,12 @@ export default function Skills() {
 					<p className='hvr-buzz-out'>Node</p>
 				</i>
 				<span>
-					<Icon icon={graphqlIcon} height={'1.6rem'} />
-					<p className='hvr-buzz-out'>GraphQL</p>
+					<Icon icon={logoPython} height={'1rem'} />
+					<p className='hvr-buzz-out'>Python</p>
+				</span>
+				<span>
+					<Icon icon={phpIcon} height={'1rem'} />
+					<p className='hvr-buzz-out'>PHP</p>
 				</span>
 			</SkillsDiv>
 		</>
@@ -73,8 +78,7 @@ const SkillsDiv = styled.div`
 		height: 37rem;
 	}
 	h4 {
-		font-size: 1.2rem;
-		padding: 0% 3% 0.5% 3%;
+		font-size: 1.4rem;
 		@media (max-width: 1065px) {
 			padding: 7%;
 			margin: 0% 0% 15% 0%;
@@ -89,7 +93,7 @@ const SkillsDiv = styled.div`
 			transition: all 0.2s ease-in-out;
 			transform: scale(1.1);
 		}
-		font-size: 1.6rem;
+		font-size: 1rem;
 		@media (max-width: 2760px) {
 			margin-left: 5%;
 		}

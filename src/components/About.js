@@ -30,8 +30,8 @@ export default function About() {
 						</span>
 					</p>
 					<p>
-						I'm Chase, currently a Full Stack Development Specialist at High Rise
-						Media & Junior Web Developer Intern at SetPatrol.
+						I'm Chase, a Full Stack Developer with an eye for design and an obsession
+						for meticulously crafted applications that solve real world problems.
 					</p>
 					<Accordion
 						title='Learn more about me!'
@@ -42,17 +42,19 @@ export default function About() {
             <p>My previous career as a head roaster in the specialty coffee industry has given me 
             valuable insights into managing a critical department
             of a small business through developing advanced skills in
-            organization, problem-solving and communication.<p/> 
+            organization, problem-solving and communication. Preparing me well for a career in software.<p/> 
             <p> While attending Lambda School (and working a full-time job) over the past 12 months, 
             I’ve completed a great deal of coursework on cutting-edge web development technologies 
             and best practices, including Agile software development and Git Workflow. 
             I learned and applied skills, including JavaScript, 
             React, Redux, React Router, HTML/CSS, LESS, Styled-Components, Node, Express.js, 
-            REST APIs, and SQLite in a range of web and mobile platforms, from wireframing to 
-            the final product as well as client-side and server testing.</p>
-            <p>At the end of July 2020 I joined SetPatrol as a Junior Web Developer Intern.  
-            I have pair-programmed with the lead developer to fix a multitude of bugs across the website, 
-            gained valuable experience developing production PHP, JavaScript, HTML & CSS code all while 
+            REST APIs, Python and SQLite in a range of web and mobile platforms, from wireframing to 
+			the final product as well as client-side and server testing and data structures & 
+			algorithms.</p> <p>At the end of July 2020 I joined SetPatrol as a Junior Web Developer Intern. I 
+			have provided critical input on researching & selecting the tech stack for an updated 
+			product and created product vision with lead developer and board members. I have 
+			pair-programmed with the lead developer to fix a multitude of bugs across the beta website,
+			gained valuable experience developing production PHP, JavaScript, HTML & CSS code all while 
             navigating an existing codebase in Wordpress. I also designed, developed and styled 
             <a href="https://codepen.io/ChaseOfTheCollins/pen/xxVGwae?editors=1111" target="_blank"
               rel="noopener noreferrer">double slider</a> (using HTML, CSS & JavaScript) for the 
@@ -119,7 +121,7 @@ const ButtonDiv = styled.div`
 		background: black;
 		color: white;
 		text-transform: uppercase;
-		padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+		padding: 0rem 0.4rem 0.2rem 0.4rem;
 		border: none;
 		margin: 3% 5% 0% 0%;
 		transition: all 0.4s ease 0s;

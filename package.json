@@ -13,7 +13,7 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-toggle-dark-mode": "^1.0.2",
     "styled-components": "^5.0.1",
     "styled-icons": "^10.11.0"
@@ -41,7 +41,9 @@
     ]
   },
   "devDependencies": {
+    "@iconify/icons-carbon": "^1.0.6",
     "@iconify/icons-cib": "^1.0.2",
+    "@iconify/icons-fa-brands": "^1.0.14",
     "@iconify/icons-logos": "^1.0.11",
     "@iconify/icons-simple-icons": "^1.0.31",
     "@iconify/react": "^1.1.3",

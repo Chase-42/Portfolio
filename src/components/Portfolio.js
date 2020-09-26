@@ -8,6 +8,7 @@ import img2 from '../images/revitalize.png';
 import img3 from '../images/nasaphotooftheday.png';
 import img4 from '../images/savetheanimals.png';
 import img5 from '../images/top-shows-and-movies.png';
+import img6 from '../images/game-of-life.png';
 
 export default function Portfolio() {
 	return (
@@ -65,6 +66,33 @@ export default function Portfolio() {
 						</li>
 						<a
 							href='https://github.com/Lambda-School-Labs/Revitalize-FE'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							{' '}
+							<i className='fab fa-github'></i>
+						</a>
+					</ul>
+				</div>
+				<div className='hvr-float'>
+					<h5>Game of Life</h5>
+					<img src={img6} alt='reducer' />
+					<a
+						href='https://chase-game-of-life.netlify.app/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<StyledButton>Check it out</StyledButton>
+					</a>
+					<p>React | Styled-Components | Bootstrap</p>
+					<ul>
+						<li>
+							Application that demonstrates John Conway's Game of Life (a zero player
+							game where one sets initial state and observes the evolution).
+						</li>
+						<li>Designed, built & deployed by myself over 1 week.</li>
+						<a
+							href='https://github.com/Chase-42/Game-Of-Life'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
@@ -152,8 +180,7 @@ export default function Portfolio() {
 					</p>
 					<ul>
 						<li>
-							A fully responsive to do application for adding, selecting and deleting
-							different tasks.
+							A To Do application for adding, selecting and deleting different tasks.
 						</li>
 						<li>Designed, built & deployed by myself over 3 days.</li>
 						<a
@@ -247,8 +274,12 @@ const ProjectSection = styled.div`
 			margin: 5%;
 		}
 		h5 {
+			background: #478185;
+			width: 100%;
 			font-size: 0.9rem;
-			margin: 2.5%;
+			margin: 0% 0% 5% 0%;
+			border-radius: 5px 5px 0px 0px;
+			padding: 0.25rem 0rem 0.25rem 0rem;
 			@media (max-width: 800px) {
 				font-size: 1.25rem;
 			}
@@ -298,7 +329,7 @@ const ProjectSection = styled.div`
 
 const StyledButton = styled.button`
 	color: white;
-	background: #191919;
+	background: #8e2f3d;
 	text-transform: uppercase;
 	padding: 8px 14px 8px 14px;
 	border-radius: 5px;
