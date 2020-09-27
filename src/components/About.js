@@ -31,7 +31,8 @@ export default function About() {
 					</p>
 					<p>
 						I'm Chase, a Full Stack Developer with an eye for design and an obsession
-						for meticulously crafted applications that solve real world problems.
+						for building meticulously crafted applications that solve real world
+						problems.
 					</p>
 					<Accordion
 						title='Learn more about me!'
@@ -58,11 +59,9 @@ export default function About() {
             navigating an existing codebase in Wordpress. I also designed, developed and styled 
             <a href="https://codepen.io/ChaseOfTheCollins/pen/xxVGwae?editors=1111" target="_blank"
               rel="noopener noreferrer">double slider</a> (using HTML, CSS & JavaScript) for the 
-            website that has a gear value and days you want to rent value
-            and outputs an amount of money you could earn via the two other values.</p>
-            <p>At the end of August 2020 I joined High Rise Media as a Full Stack Development 
-            Specialist. </p>
-            <p>If you’d like to know more, feel free to get in touch!</p>'
+			website that has a gear value and days you want to rent value and outputs a third value of an amount 
+			of money you could earn. </p> <p>At the end of August 2020 I joined High Rise Media as a 
+			Full Stack Development Specialist. </p> <p>If you’d like to know more, feel free to get in touch!</p>'
 					/>
 					<ButtonDiv>
 						<button className='hvr-bounce-to-bottom'>

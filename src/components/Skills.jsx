@@ -2,7 +2,7 @@ import React from 'react';
 // Styles
 import styled from 'styled-components';
 // Icons
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import reduxIcon from '@iconify/icons-simple-icons/redux';
 import logoPython from '@iconify/icons-carbon/logo-python';
 import phpIcon from '@iconify/icons-fa-brands/php';
