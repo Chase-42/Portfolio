@@ -65,7 +65,7 @@ const SkillsDiv = styled.div`
 	padding: 1%;
 	@media (max-width: 1065px) {
 		flex-direction: column;
-		height: 32rem;
+		height: 31rem;
 		width: 6rem;
 		float: none;
 		display: block;
@@ -124,7 +124,7 @@ const SkillsDiv = styled.div`
 			@media (max-width: 1065px) {
 				margin: 5% 0% 10% 0%;
 			}
-			@media (max-width: 800px) {
+			@media (max-width: 1065px) {
 				font-size: 0.8rem;
 			}
 		}

@@ -40,7 +40,7 @@ export default function About() {
             <p>Since January of 2019 I have been learning and falling in love with programming, 
             but my journey started for real in August of 2019 when I joined Lambda School to take 
             their Full-Stack Web Development & Computer Science course.</p>
-            <p>My previous career as a head roaster in the specialty coffee industry has given me 
+            <p>My previous career as a head coffee roaster in the specialty coffee industry has given me 
             valuable insights into managing a critical department
             of a small business through developing advanced skills in
             organization, problem-solving and communication. Preparing me well for a career in software.<p/> 
