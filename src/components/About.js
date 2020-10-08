@@ -35,7 +35,7 @@ export default function About() {
 						problems.
 					</p>
 					<Accordion
-						title='Learn more about me!'
+						title='Learn more!'
 						content='
             <p>Since January of 2019 I have been learning and falling in love with programming, 
             but my journey started for real in August of 2019 when I joined Lambda School to take 
@@ -60,8 +60,9 @@ export default function About() {
             <a href="https://codepen.io/ChaseOfTheCollins/pen/xxVGwae?editors=1111" target="_blank"
               rel="noopener noreferrer">double slider</a> (using HTML, CSS & JavaScript) for the 
 			website that has a gear value and days you want to rent value and outputs a third value of an amount 
-			of money you could earn. </p> <p>At the end of August 2020 I joined High Rise Media as a 
-			Full Stack Development Specialist. </p> <p>If you’d like to know more, feel free to get in touch!</p>'
+			of money you could earn. </p> <p>At the beginning of October 2020 I was promoted to the position
+			of Chief Technology Officer and am currently spearheading the building of a production marketplace for 
+			SetPatrol. </p> <p>If you’d like to know more, feel free to get in touch!</p>'
 					/>
 					<ButtonDiv>
 						<button className='hvr-bounce-to-bottom'>

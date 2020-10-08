@@ -193,33 +193,6 @@ export default function Portfolio() {
 						</a>
 					</ul>
 				</div>
-				<div className='hvr-float'>
-					<h5>Save The Animals</h5>
-					<img src={img4} alt='reducer' />
-					<a
-						href='https://save-the-animals.netlify.com/'
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						<StyledButton>Check it out</StyledButton>
-					</a>
-					<p>HTML | LESS</p>
-					<ul>
-						<li>
-							Fully responsive, multi-page static webpage that provides information for
-							a Wildlife Conservation application.
-						</li>
-						<li>Designed, built & deployed by myself over 1 week.</li>
-						<a
-							href='https://github.com/bwpt-savetheanimals/collins-marketing-page/tree/chase-collins'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							{' '}
-							<i className='fab fa-github'></i>
-						</a>
-					</ul>
-				</div>
 			</ProjectSection>
 		</PortfolioDiv>
 	);
