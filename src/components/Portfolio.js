@@ -6,7 +6,6 @@ import '../hover.css';
 import img1 from '../images/reducer-todo-picture.png';
 import img2 from '../images/revitalize.png';
 import img3 from '../images/nasaphotooftheday.png';
-import img4 from '../images/savetheanimals.png';
 import img5 from '../images/top-shows-and-movies.png';
 import img6 from '../images/game-of-life.png';
 
