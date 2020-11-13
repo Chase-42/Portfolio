@@ -118,7 +118,7 @@ const ButtonDiv = styled.div`
 		text-decoration: none;
 		box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
 			0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
-		background: black;
+		background: rgb(71, 129, 133, 0.9);
 		color: white;
 		text-transform: uppercase;
 		padding: 0rem 0.4rem 0.2rem 0.4rem;
@@ -170,7 +170,7 @@ const AboutBanner = styled.div`
     }
   }
   h3 {
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px black;
     font-size: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 0.4rem;
@@ -192,7 +192,7 @@ const AboutBanner = styled.div`
 `;
 
 const AboutCard = styled.section`
-	background-color: rgba(120, 136, 140, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	padding: 2%;
 	width: 98%;
 	border-radius: 5px;
