@@ -100,8 +100,8 @@ const Banner = styled.header`
 		0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 	background: linear-gradient(
 		110deg,
-		rgb(71, 129, 133, 0.9) 60%,
-		rgba(255, 255, 255, 0.5) 60%
+		rgb(71, 129, 133, 0.9) 75%,
+		rgba(255, 255, 255, 0.5) 25%
 	);
 	h4 {
 		margin-left: 0.6%;

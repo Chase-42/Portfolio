@@ -55,9 +55,9 @@ const SkillsDiv = styled.div`
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	background: rgb(71, 129, 133, 0.9);
 	height: 5rem;
 	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
 	box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
 		0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
 	margin-top: 10%;
@@ -88,6 +88,7 @@ const SkillsDiv = styled.div`
 	i,
 	span,
 	p {
+		color: #8e2f3d;
 		cursor: pointer;
 		&:hover {
 			transition: all 0.2s ease-in-out;
