@@ -126,7 +126,7 @@ const Section = styled.div`
   flex-direction: row;
   align-items: flex-end;
   justify-content: start;
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px #8e2f3d;
   @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;

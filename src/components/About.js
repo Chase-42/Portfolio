@@ -37,32 +37,31 @@ export default function About() {
 					<Accordion
 						title='Learn more!'
 						content='
-            <p>Since January of 2019 I have been learning and falling in love with programming, 
-            but my journey started for real in August of 2019 when I joined Lambda School to take 
-            their Full-Stack Web Development & Computer Science course.</p>
-            <p>My previous career as a head coffee roaster in the specialty coffee industry has given me 
-            valuable insights into managing a critical department
-            of a small business through developing advanced skills in
-            organization, problem-solving and communication. Preparing me well for a career in software.<p/> 
-            <p> While attending Lambda School (and working a full-time job) over the past 12 months, 
+				<p>I am currently the Head of Technology at SetPatrol (a remote tech startup) where I 
+				researched and selected a tech stack for a film-equipment marketplace and led a team 
+				of remote developers to carefully iterate on programming the marketplace with care 
+				and passion. I also collaborated and contributed to the MVP and product expectations. 
+				It has sharpened my communication and organizational skills while honing my self-motivation
+				and adaptability as a developer. </p> 
+				<p>Before this I spent several months as a Junior Web Developer Intern at SetPatrol where 
+				I gained valuable experience navigating an existing codebase, fixing a multitude of bugs 
+				and writing production level PHP, HTML, CSS & JavaScript. </p>
+				<p>I have been learning and falling in love with programming since January of 2019,
+				but my journey started for real in August of 2019 when I joined Lambda School to take 
+				their Full-Stack Web Development & Computer Science course which I finished in November 2020.</p>
+ 				<p> While attending Lambda School (and working a full-time job) over the past 18 months, 
             I’ve completed a great deal of coursework on cutting-edge web development technologies 
             and best practices, including Agile software development and Git Workflow. 
-            I learned and applied skills, including JavaScript, 
-            React, Redux, React Router, HTML/CSS, LESS, Styled-Components, Node, Express.js, 
+				I learned and applied skills, including JavaScript, React, Redux, React Router, HTML/CSS, 
+				LESS, Styled-Components, Node, Express.js, 
             REST APIs, Python and SQLite in a range of web and mobile platforms, from wireframing to 
-			the final product as well as client-side and server testing and data structures & 
-			algorithms.</p> <p>At the end of July 2020 I joined SetPatrol as a Junior Web Developer Intern. I 
-			have provided critical input on researching & selecting the tech stack for an updated 
-			product and created product vision with lead developer and board members. I have 
-			pair-programmed with the lead developer to fix a multitude of bugs across the beta website,
-			gained valuable experience developing production PHP, JavaScript, HTML & CSS code all while 
-            navigating an existing codebase in Wordpress. I also designed, developed and styled 
-            <a href="https://codepen.io/ChaseOfTheCollins/pen/xxVGwae?editors=1111" target="_blank"
-              rel="noopener noreferrer">double slider</a> (using HTML, CSS & JavaScript) for the 
-			website that has a gear value and days you want to rent value and outputs a third value of an amount 
-			of money you could earn. </p> <p>At the beginning of October 2020 I was promoted to the position
-			of Chief Technology Officer and am currently spearheading the building of a production marketplace for 
-			SetPatrol. </p> <p>If you’d like to know more, feel free to get in touch!</p>'
+         	the final product as well as client-side and server testing and data structures & 
+				algorithms.</p>
+				<p>My previous career as a head coffee roaster in the specialty coffee industry has given 
+				me valuable insights into managing a critical department of a small business through developing 
+				advanced skills in organization, problem-solving and communication; preparing me well 
+				for a career in software. 
+				<p>If you’d like to know more, feel free to get in touch!</p>'
 					/>
 					<ButtonDiv>
 						<button className='hvr-bounce-to-bottom'>
@@ -150,10 +149,10 @@ const AboutBanner = styled.div`
   width: 77%;
   text-align: left;
   img {
-    height: 260px;
+    height: 220px;
     overflow: hidden;
     object-fit: cover;
-    border-radius: 130px;
+    border-radius: 25px;
     box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
       0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
     float: left;
@@ -170,7 +169,7 @@ const AboutBanner = styled.div`
     }
   }
   h3 {
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px #8e2f3d;
     font-size: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 0.4rem;

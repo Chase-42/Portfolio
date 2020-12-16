@@ -210,7 +210,7 @@ const PortfolioDiv = styled.div`
 			padding-left: 0%;
 			font-size: 1.7rem;
 		}
-		border-bottom: solid 2px #488286;
+		border-bottom: solid 2px #8e2f3d;
 		font-size: 1.25rem;
 		margin-bottom: 1rem;
 		padding-bottom: 0.4rem;
